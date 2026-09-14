@@ -1,184 +1,214 @@
-🌆 CityPulse
-
-Urban Big Data Analytics Platform for Gurugram
-
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:0072FF,100:7F00FF&height=220&section=header&text=CityPulse&fontSize=70&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Urban%20Big%20Data%20Analytics%20for%20Gurugram&descAlignY=58&descSize=20" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:00C6FF,45:0072FF,100:7F00FF&text=CITYPULSE&fontSize=72&fontColor=FFFFFF&fontAlignY=38&desc=Urban%20Big%20Data%20Analytics%20%E2%80%A2%20Gurugram&descAlignY=60&descSize=20&animation=fadeIn" width="100%"/>
+
+# 🌆 CityPulse
+### **Urban Big Data Analytics Platform for Gurugram**
+
+<p>
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-00C853?style=for-the-badge&logo=statuspage&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FOCUS-URBAN%20ANALYTICS-7F00FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LOCATION-GURUGRAM-0072FF?style=for-the-badge"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PySpark-FF6F00?style=flat-square&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spark_SQL-FF6F00?style=flat-square&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+</p>
+
+### *Turning heterogeneous urban data into meaningful intelligence.*
+
 <br>
-<br>
 
-Turning heterogeneous urban data into meaningful intelligence.
+<a href="#-overview">Overview</a> •
+<a href="#-architecture">Architecture</a> •
+<a href="#-data-ecosystem">Data</a> •
+<a href="#-analytics">Analytics</a> •
+<a href="#-technology-stack">Tech Stack</a> •
+<a href="#-roadmap">Roadmap</a>
 
 </div>
 
-⸻
+---
 
-📖 Project Overview
+## ✨ Overview
 
-CityPulse is a Gurugram-focused Urban Big Data Analytics Platform designed to integrate and analyze heterogeneous urban datasets from multiple domains.
+> **CityPulse** is a Gurugram-focused Urban Big Data Analytics platform that brings together heterogeneous datasets from **mobility, weather, air quality, events, and geography** and processes them through a distributed analytics pipeline.
 
-Instead of analyzing mobility, weather, air quality, events, and geography independently, CityPulse brings these datasets together into a common analytical framework.
-
-The objective is to discover:
-
-* 🕐 Temporal patterns
-* 📍 Spatial patterns
-* 🔗 Cross-domain relationships
-* 🚨 Urban anomalies
-* 🧩 Similar geographical behavior
-* 📈 Statistical trends
-* 🔎 Frequently occurring combinations of urban conditions
-
-The project demonstrates how Hadoop, HDFS, MapReduce, PySpark, and Spark SQL can be combined with modern analytics and visualization technologies to solve a real-world urban data problem.
-
-⸻
-
-💡 Core Idea
-
-<div align="center">
-┌───────────────────────────────────────────────────────────────┐
-│                       RAW URBAN DATA                          │
-│                                                               │
-│  🚗 Mobility   🌦️ Weather   🌫️ Air Quality   🎫 Events   🗺️ GIS │
-└───────────────────────────────┬───────────────────────────────┘
-                                │
-                                ▼
-┌───────────────────────────────────────────────────────────────┐
-│                     BIG DATA PIPELINE                         │
-│                                                               │
-│        HDFS → MapReduce → PySpark → Spark SQL                 │
-└───────────────────────────────┬───────────────────────────────┘
-                                │
-                                ▼
-┌───────────────────────────────────────────────────────────────┐
-│                    URBAN ANALYTICS                            │
-│                                                               │
-│  📊 Statistics  │  🧩 Clustering  │  🎯 Classification        │
-│  🚨 Anomalies   │  🔗 Associations │  📈 Trend Analysis      │
-└───────────────────────────────┬───────────────────────────────┘
-                                │
-                                ▼
-┌───────────────────────────────────────────────────────────────┐
-│                  CITYPULSE INTELLIGENCE                       │
-│                                                               │
-│              Interactive Urban Analytics Dashboard            │
-└───────────────────────────────────────────────────────────────┘
-</div>
-
-⸻
-
-🎯 Problem Statement
-
-Modern cities generate massive amounts of heterogeneous data from transportation systems, environmental sensors, weather services, public events, and geographic information systems.
-
-However, these datasets are usually:
-
-* Stored in different formats
-* Generated at different frequencies
-* Associated with different geographic references
-* Maintained by different systems
-* Difficult to analyze together
-
-This creates a major challenge:
-
-How can heterogeneous urban datasets be integrated and processed at scale to discover meaningful temporal and spatial relationships within a city?
-
-CityPulse addresses this challenge using a distributed Big Data processing pipeline focused on Gurugram.
-
-⸻
-
-🧠 Research Question
+The project is designed around one central idea:
 
 <div align="center">
 
-🔬 Central Research Question
-
-How can heterogeneous mobility, environmental, weather, event, and geographical data be processed at scale to discover meaningful temporal and spatial relationships in Gurugram’s urban environment?
+### **Different urban signals → One integrated analytical view → Meaningful urban insights**
 
 </div>
 
-Supporting Questions
+Rather than building a dashboard around a single dataset or focusing only on prediction, CityPulse investigates **how different dimensions of a city interact across time and space**.
 
-Question	Analytical Goal
-🌦️ How does weather relate to mobility?	Correlation & temporal analysis
-🌫️ Are mobility patterns associated with air quality?	Cross-domain analysis
-🎫 Do public events coincide with unusual mobility?	Event-context analysis
-📍 Which areas show similar urban behavior?	Clustering
-🚨 What constitutes unusual urban activity?	Anomaly detection
-🔗 Which urban conditions frequently occur together?	Association rules
-⚡ How effectively can distributed technologies process integrated data?	Performance benchmarking
+### 🔎 What CityPulse aims to discover
 
-⸻
+| | Analytical Dimension | What We Investigate |
+|---|---|---|
+| 🕐 | **Temporal** | How urban behavior changes over time |
+| 📍 | **Spatial** | How different Gurugram areas behave |
+| 🔗 | **Cross-domain** | Relationships between mobility, weather & pollution |
+| 🚨 | **Anomalies** | Unusual urban activity and conditions |
+| 🧩 | **Clusters** | Areas with similar urban behavior |
+| 📊 | **Statistics** | Distributions, trends and correlations |
+| 🔎 | **Associations** | Conditions that frequently occur together |
 
-🏙️ Why Gurugram?
+---
 
-Gurugram provides an interesting environment for urban analytics because of its:
+## 🎯 Problem Statement
 
-* 🚗 High mobility activity
-* 🏢 Dense commercial zones
-* 🛣️ Major transportation corridors
-* 🌫️ Significant environmental variation
-* 🌦️ Seasonal weather changes
-* 🎫 Frequent public and commercial events
-* 📍 Diverse geographical areas
+Modern cities continuously generate data through transportation systems, environmental monitoring, weather services, public events, and geographic information systems.
 
-This makes Gurugram an appropriate case study for investigating interactions between mobility, environment, weather, events, and geography.
+However, these datasets are often:
 
-⸻
+- stored in different formats,
+- generated at different temporal resolutions,
+- represented using different geographic references,
+- maintained by independent systems, and
+- difficult to analyze collectively.
 
-📦 Data Domains
+### The Challenge
 
-CityPulse integrates multiple categories of urban data.
+> **How can heterogeneous mobility, environmental, weather, event, and geographical data be integrated and processed at scale to discover meaningful temporal and spatial relationships within Gurugram?**
+
+CityPulse addresses this challenge by creating an end-to-end **Big Data processing and analytics pipeline**.
+
+---
+
+## 🧠 Research Question
 
 <div align="center">
 
-Domain	Example Variables	Purpose
-🚗 Mobility	Traffic, movement, timestamps, locations	Analyze urban movement
-🌦️ Weather	Temperature, humidity, rainfall, wind	Environmental context
-🌫️ Air Quality	PM2.5, PM10, NO₂, O₃, CO	Pollution analysis
-🎫 Events	Type, location, date/time	Contextual information
-🗺️ Geography	Coordinates, wards, zones	Spatial analysis
+### 🔬 Central Research Question
+
+**How can heterogeneous mobility, environmental, weather, event, and geographical data be processed at scale to discover meaningful temporal and spatial relationships in Gurugram's urban environment?**
 
 </div>
 
-⸻
+### Supporting Questions
 
-🔄 Data Integration Strategy
+- 🌦️ How does weather relate to mobility?
+- 🌫️ Are mobility patterns associated with air-quality conditions?
+- 🎫 Do public events coincide with unusual mobility patterns?
+- 📍 Which geographical areas show similar urban behavior?
+- 🚨 What constitutes unusual urban activity?
+- 🔗 Which combinations of urban conditions frequently occur?
+- ⚡ How effectively can distributed technologies process integrated urban data?
 
-The core challenge is not simply collecting datasets.
+> **Important:** Events are treated as contextual variables. CityPulse is **not** primarily trying to predict whether an event occurred.
 
-The real challenge is making heterogeneous datasets analytically compatible.
+---
 
-CityPulse performs:
+# 🏙️ Why Gurugram?
 
-Different Sources
-       │
-       ▼
-Schema Standardization
-       │
-       ▼
-Timestamp Normalization
-       │
-       ▼
-Geographic Normalization
-       │
-       ▼
-Missing Value Handling
-       │
-       ▼
-Duplicate Removal
-       │
-       ▼
-Data Quality Validation
-       │
-       ▼
-Temporal / Spatial Join
-       │
-       ▼
-Integrated Urban Dataset
+Gurugram is a strong case study for urban analytics because of its combination of:
 
-A potential analytical representation is:
+<div align="center">
 
+| 🚗 Mobility | 🏢 Commercial Density | 🛣️ Transport Corridors |
+|:---:|:---:|:---:|
+| High urban movement | Major business zones | Major road networks |
+
+| 🌫️ Environmental Variation | 🌦️ Weather Variation | 🎫 Events |
+|:---:|:---:|:---:|
+| Air-quality fluctuations | Seasonal changes | Public & commercial activity |
+
+</div>
+
+This creates an environment where multiple urban signals can be studied together.
+
+---
+
+# 🌐 Data Ecosystem
+
+CityPulse is built around **heterogeneous data integration**.
+
+```text
+                         🌆 GURUGRAM
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        │                     │                     │
+        ▼                     ▼                     ▼
+   🚗 MOBILITY          🌦️ WEATHER            🌫️ AIR QUALITY
+        │                     │                     │
+        └─────────────────────┼─────────────────────┘
+                              │
+                    ┌─────────┴─────────┐
+                    ▼                   ▼
+              🎫 EVENTS            🗺️ GEOGRAPHY
+                    │                   │
+                    └─────────┬─────────┘
+                              ▼
+                    🔗 DATA INTEGRATION
+```
+
+### 📦 Data Domains
+
+| Domain | Example Variables | Analytical Role |
+|:---:|---|---|
+| 🚗 **Mobility** | movement, traffic/activity, timestamp, location | Urban movement |
+| 🌦️ **Weather** | temperature, humidity, rainfall, wind | Environmental context |
+| 🌫️ **Air Quality** | PM2.5, PM10, NO₂, O₃, CO | Pollution analysis |
+| 🎫 **Events** | type, location, date/time | Contextual factor |
+| 🗺️ **Geography** | coordinates, wards, zones | Spatial analysis |
+
+---
+
+# 🔄 Data Integration
+
+The difficult part is not simply collecting five datasets.
+
+The difficult part is making them **analytically compatible**.
+
+```text
+┌──────────────────────┐
+│ Heterogeneous Sources│
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Schema Standardizing │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Timestamp Normalizing│
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Geographic Mapping   │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Missing Values       │
+│ + Duplicate Handling │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Data Quality Checks  │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Temporal / Spatial    │
+│ Integration           │
+└──────────┬───────────┘
+           ▼
+┌──────────────────────┐
+│ Integrated Urban Data│
+└──────────────────────┘
+```
+
+A conceptual integrated record may contain:
+
+```text
 timestamp
 area_id
 mobility_value
@@ -190,114 +220,103 @@ pm25
 pm10
 event_indicator
 event_type
+```
 
-The exact schema will depend on the final datasets selected during implementation.
+The final schema will be determined by the actual datasets selected and validated during implementation.
 
-⸻
+---
 
-🏗️ System Architecture
+# 🏗️ Architecture
 
-                         CITYPULSE
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│                    🌐 DATA SOURCES                       │
+│                                                          │
+│  🚗 Mobility │ 🌦️ Weather │ 🌫️ Air │ 🎫 Events │ 🗺️ GIS │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-                 ┌─────────────────────┐
-                 │  DATA ACQUISITION   │
-                 └──────────┬──────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-          ▼                 ▼                 ▼
-      Mobility           Weather         Air Quality
-          │                 │                 │
-          └─────────────────┼─────────────────┘
+┌──────────────────────────────────────────────────────────┐
+│                    📥 DATA ACQUISITION                   │
+│               Collection • Validation • Metadata         │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-                    Events + Geography
+┌──────────────────────────────────────────────────────────┐
+│                    🗄️ HADOOP HDFS                       │
+│             Distributed Storage • Raw Data               │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-                 ┌─────────────────────┐
-                 │       HDFS          │
-                 │ Distributed Storage │
-                 └──────────┬──────────┘
+┌──────────────────────────────────────────────────────────┐
+│                    ⚙️ MAPREDUCE                          │
+│              Mapper → Shuffle → Reducer                  │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-                 ┌─────────────────────┐
-                 │     MapReduce       │
-                 │ Distributed Jobs    │
-                 └──────────┬──────────┘
+┌──────────────────────────────────────────────────────────┐
+│                    🔥 PYSPARK                            │
+│       Cleaning • Transformation • Integration • ETL      │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-                 ┌─────────────────────┐
-                 │      PySpark        │
-                 │ Processing & ETL    │
-                 └──────────┬──────────┘
+┌──────────────────────────────────────────────────────────┐
+│                    🧮 SPARK SQL                          │
+│           Querying • Aggregation • Analysis              │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-                 ┌─────────────────────┐
-                 │     Spark SQL       │
-                 │ Query & Aggregation │
-                 └──────────┬──────────┘
+┌──────────────────────────────────────────────────────────┐
+│                    🧠 ANALYTICS                          │
+│                                                          │
+│ 📊 Statistics │ 🧩 Clustering │ 🎯 Classification       │
+│ 🚨 Anomalies  │ 🔗 Associations │ 📈 Trends             │
+└───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
-              ┌────────────────────────────┐
-              │      ANALYTICS ENGINE      │
-              ├────────────────────────────┤
-              │ 📊 Statistics              │
-              │ 🧩 Clustering              │
-              │ 🎯 Classification          │
-              │ 🔗 Association Rules       │
-              │ 🚨 Anomaly Detection       │
-              └──────────────┬─────────────┘
-                             │
-                             ▼
-                   ┌───────────────────┐
-                   │     FastAPI       │
-                   │ Analytics Backend │
-                   └─────────┬─────────┘
-                             │
-                             ▼
-                   ┌───────────────────┐
-                   │ Next.js + React   │
-                   │ Interactive UI    │
-                   └─────────┬─────────┘
-                             │
-                             ▼
-                   🌆 CITYPULSE DASHBOARD
+┌───────────────────────────┐
+│ 🚀 FASTAPI ANALYTICS API │
+└──────────────┬────────────┘
+               │
+               ▼
+┌───────────────────────────┐
+│ ⚛️ NEXT.JS / REACT UI    │
+└──────────────┬────────────┘
+               │
+               ▼
+        🌆 CITYPULSE
+       INTELLIGENCE HUB
+```
 
-⸻
+</div>
 
-⚙️ How CityPulse Works
+---
 
-1️⃣ Data Acquisition
+# ⚙️ How It Works
 
-Data is collected from multiple heterogeneous sources.
+## 01 · 📥 Data Acquisition
 
-Mobility ─────┐
-Weather ──────┤
-Air Quality ──┼──► CityPulse Data Layer
-Events ───────┤
-Geography ────┘
+Each source is evaluated for:
 
-Each dataset is inspected for:
+- Format
+- Schema
+- Volume
+- Temporal resolution
+- Geographic coverage
+- Missing values
+- Duplicates
+- Data quality
+- Licensing / usage constraints
 
-* Format
-* Schema
-* Size
-* Timestamp resolution
-* Geographic coverage
-* Missing values
-* Duplicate records
-* Data quality
-* Licensing / usage constraints
+---
 
-⸻
+## 02 · 🗄️ HDFS Storage
 
-2️⃣ Distributed Storage — HDFS
+Raw and processed data is organized within HDFS.
 
-Raw and processed datasets are organized inside Hadoop Distributed File System (HDFS).
-
-Example:
-
+```text
 /citypulse/
 │
 ├── raw/
@@ -317,118 +336,46 @@ Example:
     ├── mapreduce/
     ├── analytics/
     └── reports/
+```
 
-HDFS demonstrates distributed storage concepts such as:
+HDFS demonstrates:
 
-* Block-based storage
-* Replication
-* Fault tolerance
-* Distributed access
-* Large-scale file handling
+`Distributed Storage` · `Blocks` · `Replication` · `Fault Tolerance`
 
-⸻
+---
 
-🗺️ Geographic Integration
+## 03 · ⚙️ MapReduce
 
-Geography is critical because urban behavior changes from one area to another.
+MapReduce demonstrates distributed computation.
 
-CityPulse can transform raw coordinates into common geographic units such as:
+### Example
 
-Latitude + Longitude
-          │
-          ▼
-Spatial Mapping
-          │
-          ▼
-Gurugram Ward / Area
-          │
-          ▼
-area_id
-
-This enables questions such as:
-
-Which areas show similar mobility and environmental behavior?
-
-and:
-
-Which areas experience unusual urban conditions?
-
-⸻
-
-⏱️ Temporal Integration
-
-Datasets may use different time resolutions.
-
-For example:
-
-Mobility       → minute-level
-Weather        → hourly
-Air Quality    → hourly
-Events         → event-based
-Geography      → static
-
-CityPulse therefore performs temporal normalization where appropriate.
-
-Example:
-
-10:00 ─┐
-10:15 ─┤
-10:30 ─┤──► 10:00–11:00 analytical window
-10:45 ─┤
-11:00 ─┘
-
-This allows different domains to be analyzed together.
-
-⸻
-
-⚡ Big Data Processing Layer
-
-Hadoop + HDFS
-
-Used for:
-
-* Distributed storage
-* Dataset organization
-* Large-file handling
-* Hadoop ecosystem demonstration
-
-MapReduce
-
-Used to demonstrate distributed computation through:
-
-* Mapper
-* Shuffle
-* Reducer
-* Aggregation
-* Distributed output
-
-Example conceptual job:
-
-Raw Mobility Data
-       │
-       ▼
-     Mapper
-       │
-       ▼
+```text
+Raw Mobility Records
+        │
+        ▼
+     MAPPER
+        │
+        ▼
 (area_id, mobility_value)
-       │
-       ▼
-    Shuffle
-       │
-       ▼
-     Reducer
-       │
-       ▼
-Area-level aggregation
+        │
+        ▼
+     SHUFFLE
+        │
+        ▼
+    REDUCER
+        │
+        ▼
+Area-level Aggregation
+```
 
-⸻
+---
 
-🔥 PySpark Processing
+## 04 · 🔥 PySpark
 
-PySpark forms the primary distributed data-processing layer.
+PySpark forms the main distributed processing layer.
 
-Planned processing includes:
-
+```text
 Raw Data
    ↓
 DataFrame Creation
@@ -445,30 +392,18 @@ Outlier Handling
    ↓
 Feature Engineering
    ↓
-Dataset Integration
+Cross-Dataset Integration
    ↓
-Parquet Storage
+Parquet / Analytical Storage
+```
 
-PySpark enables the project to demonstrate:
+---
 
-* Distributed DataFrames
-* Transformations
-* Actions
-* Aggregations
-* Joins
-* Window operations
-* Partitioning
-* Caching
-* Distributed computation
+## 05 · 🧮 Spark SQL
 
-⸻
+Spark SQL enables scalable analytical queries.
 
-🧮 Spark SQL
-
-Spark SQL enables analytical querying over the integrated dataset.
-
-Example conceptual query:
-
+```sql
 SELECT
     area_id,
     AVG(mobility_value) AS avg_mobility,
@@ -476,270 +411,294 @@ SELECT
     AVG(temperature) AS avg_temperature
 FROM integrated_urban_data
 GROUP BY area_id;
+```
 
-This allows CityPulse to perform:
+This supports:
 
-* Area-level aggregation
-* Time-based analysis
-* Cross-domain comparisons
-* Filtering
-* Grouping
-* Statistical summaries
+`Filtering` · `Grouping` · `Aggregation` · `Joins` · `Time Analysis` · `Area Analysis`
 
-⸻
+---
 
-📊 Analytics Engine
+# 🗺️ Spatial Intelligence
 
-CityPulse is not designed as a single machine-learning model.
+Urban behavior is not uniform across a city.
 
-Instead, it combines multiple analytical techniques.
+CityPulse therefore maps geographic observations into common analytical areas.
+
+```text
+Latitude + Longitude
+         │
+         ▼
+   Spatial Mapping
+         │
+         ▼
+  Gurugram Ward / Area
+         │
+         ▼
+       area_id
+```
+
+This enables questions such as:
+
+> Which areas behave similarly?
+
+> Which areas show unusual activity?
+
+> Where do environmental and mobility patterns overlap?
+
+---
+
+# ⏱️ Temporal Intelligence
+
+Different datasets operate at different resolutions.
+
+```text
+🚗 Mobility       → potentially minute-level
+🌦️ Weather        → hourly
+🌫️ Air Quality    → hourly / sensor-dependent
+🎫 Events         → event-based
+🗺️ Geography      → static
+```
+
+CityPulse normalizes these observations into suitable analytical windows.
+
+Example:
+
+```text
+10:00 ─┐
+10:15 ─┤
+10:30 ─┤──► 10:00–11:00 Analytical Window
+10:45 ─┤
+11:00 ─┘
+```
+
+---
+
+# 🧠 Analytics
+
+CityPulse combines several analytical techniques rather than relying on one model.
 
 <div align="center">
-                 Integrated Dataset
-                         │
-          ┌──────────────┼──────────────┐
-          │              │              │
-          ▼              ▼              ▼
-     Statistics       Data Mining      ML Analytics
-          │              │              │
-          │        ┌─────┴─────┐    ┌───┴────┐
-          │        ▼           ▼    ▼        ▼
-          │   Association   Clustering   Classification
-          │      Rules
-          │
-          └──────────────┬──────────────┘
-                         │
-                         ▼
-                 Anomaly Detection
-                         │
-                         ▼
-                  Urban Insights
+
+| 📊 Statistics | 🧩 Clustering | 🎯 Classification |
+|:---:|:---:|:---:|
+| Distributions | Similar areas | Urban conditions |
+| Correlation | Behavior groups | Condition categories |
+
+| 🚨 Anomaly Detection | 🔗 Association Rules | 📈 Trend Analysis |
+|:---:|:---:|:---:|
+| Unusual activity | Frequent conditions | Temporal patterns |
+
 </div>
 
-⸻
+---
 
-🧩 1. Clustering
+## 🧩 Clustering
 
-Clustering groups geographically or behaviorally similar areas.
+Identify areas with similar urban behavior.
 
-Potential objective:
+```text
+                 Urban Areas
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       Cluster A   Cluster B   Cluster C
+          │           │           │
+      High Mobility  Low Activity  High Pollution
+```
 
-Identify areas with similar mobility + environmental characteristics.
+The final clusters will be determined from the actual dataset.
 
-Example conceptual output:
+---
 
-Cluster 1 → High mobility / moderate pollution
-Cluster 2 → Low mobility / low pollution
-Cluster 3 → High mobility / high pollution
-Cluster 4 → Event-sensitive areas
+## 🎯 Classification
 
-The exact clusters will be determined from the actual data.
+Classification can categorize engineered urban conditions, for example:
 
-⸻
+```text
+Urban Observation
+       │
+       ├── Normal
+       ├── High Activity
+       ├── High Pollution
+       └── Unusual Condition
+```
 
-🎯 2. Classification
+Classification is one analytical component, **not the sole objective of CityPulse**.
 
-Classification can be used to categorize urban conditions based on engineered features.
+---
 
-For example:
+## 🚨 Anomaly Detection
 
-Urban Condition
-      │
-      ├── Normal
-      ├── High Activity
-      ├── High Pollution
-      └── Unusual Condition
+Anomaly detection identifies observations that deviate significantly from expected behavior.
 
-Classification is an analytical component rather than the sole purpose of CityPulse.
+```text
+Activity
+  │
+  │             █
+  │            █ █
+  │   ▂▃▅▆▅▃▂ █  █
+  │
+  └──────────────────────────► Time
+                    🚨
+```
 
-⸻
+Potential applications include:
 
-🚨 3. Anomaly Detection
+- Unusual mobility
+- Abnormal pollution
+- Unexpected area behavior
+- Event-associated deviations
 
-Anomaly detection identifies observations that significantly deviate from expected patterns.
+---
 
-Example:
+## 🔗 Association Rule Mining
 
-Normal Mobility
-      │
-      │  ▂▃▅▆▅▃▂
-      │
-      │
-      │                 🚨
-      │                 █
-      │                 █
-      └──────────────────────────► Time
+Association mining searches for conditions that frequently occur together.
 
-Possible use cases:
-
-* Unusual traffic activity
-* Abnormal pollution levels
-* Unexpected area behavior
-* Event-associated deviations
-
-⸻
-
-🔗 4. Association Rule Mining
-
-Association rules identify frequently occurring combinations of conditions.
-
-Example:
-
+```text
 High Mobility
-      +
+     +
 Low Wind
-      +
+     +
 High PM2.5
-      ↓
+     ↓
 Frequently Associated Condition
+```
 
-The purpose is to discover relationships, not necessarily causal relationships.
+> Association does **not** imply causation.
 
-⸻
+---
 
-📐 Statistical Analysis
+# 📐 Statistical Analysis
 
-CityPulse will use descriptive and exploratory statistics to understand the integrated dataset.
+CityPulse can apply:
 
-Potential analysis includes:
+- Mean
+- Median
+- Variance
+- Standard deviation
+- Percentiles
+- Correlation
+- Distribution analysis
+- Time-series summaries
+- Area-level comparisons
 
-* Mean
-* Median
-* Standard deviation
-* Variance
-* Percentiles
-* Correlation
-* Distribution analysis
-* Time-series summaries
-* Area-level comparisons
+### Cross-domain relationships
 
-Example relationship analysis:
+```text
+🌦️ Weather ────────► 🚗 Mobility
+     │
+     └──────────────► 🌫️ Air Quality
 
-Weather ─────────► Mobility
-   │
-   ├──────────────► Air Quality
-   │
-   ▼
-Environmental Context
+🎫 Events ─────────► 🚗 Mobility
 
-⸻
+🚗 Mobility ────────► 🌫️ Air Quality
+```
 
-🔍 Exploratory Data Analysis
+These relationships are investigated analytically rather than assumed to be causal.
 
-EDA will examine:
+---
 
-Temporal Patterns
+# 🖥️ CityPulse Dashboard
 
-* Hourly behavior
-* Daily patterns
-* Weekday vs weekend
-* Seasonal variation
+The final application is planned as an interactive analytics interface.
 
-Spatial Patterns
+```text
+╔══════════════════════════════════════════════════════════╗
+║                 🌆 CITYPULSE                             ║
+║             GURUGRAM URBAN INTELLIGENCE                  ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║  🚗 Mobility    🌦️ Weather    🌫️ Air Quality    🎫 Events ║
+║                                                          ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║                 🗺️ GURUGRAM MAP                         ║
+║                                                          ║
+╠══════════════════════════╦═══════════════════════════════╣
+║ 📈 Temporal Trends       ║ 🚨 Anomalies                  ║
+╠══════════════════════════╬═══════════════════════════════╣
+║ 🧩 Area Clusters         ║ 🔗 Associations               ║
+╚══════════════════════════╩═══════════════════════════════╝
+```
 
-* Area-level mobility
-* Pollution distribution
-* Clustered urban behavior
+### Planned interface components
 
-Cross-Domain Patterns
+| Component | Purpose |
+|---|---|
+| 📊 KPI Cards | High-level statistics |
+| 📈 Time-Series | Temporal patterns |
+| 🗺️ Interactive Map | Spatial analysis |
+| 🧩 Cluster View | Area segmentation |
+| 🚨 Anomaly View | Unusual observations |
+| 🔗 Association View | Frequent combinations |
+| 🌦️ Weather Panel | Environmental context |
+| 🌫️ Air Quality Panel | Pollution patterns |
+| 🚗 Mobility Panel | Transportation behavior |
+| 🎫 Event Context | Event comparisons |
 
-Weather ↔ Mobility
-Weather ↔ Air Quality
-Events  ↔ Mobility
-Mobility ↔ Air Quality
+---
 
-⸻
-
-🖥️ Interactive Dashboard
-
-The final application will provide a web-based interface for exploring the analytical results.
-
-Planned Dashboard Components
-
-Component	Purpose
-📊 KPI Cards	High-level urban statistics
-📈 Time-Series Charts	Temporal trends
-🗺️ Interactive Map	Geographic analysis
-🧩 Cluster View	Area segmentation
-🚨 Anomaly View	Unusual conditions
-🔗 Association View	Frequent combinations
-🌦️ Weather Panel	Environmental context
-🌫️ Air Quality Panel	Pollution analysis
-🚗 Mobility Panel	Transportation patterns
-🎫 Event Context	Event-based comparison
-
-⸻
-
-🎨 Planned User Experience
-
-┌────────────────────────────────────────────────────────────┐
-│                     🌆 CITYPULSE                           │
-│               Gurugram Urban Intelligence                  │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│  🚗 Mobility     🌦️ Weather     🌫️ Air Quality     🎫 Events │
-│                                                            │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│              🗺️ INTERACTIVE GURUGRAM MAP                  │
-│                                                            │
-├─────────────────────────────┬──────────────────────────────┤
-│ 📈 Temporal Trends           │ 🚨 Anomalies                 │
-│                             │                              │
-├─────────────────────────────┼──────────────────────────────┤
-│ 🧩 Area Clusters             │ 🔗 Associations              │
-│                             │                              │
-└─────────────────────────────┴──────────────────────────────┘
-
-⸻
-
-🛠️ Technology Stack
+# 🛠️ Technology Stack
 
 <div align="center">
 
-Layer	Technologies
-🐍 Programming	Python
-🗄️ Distributed Storage	Hadoop HDFS
-⚙️ Distributed Processing	Apache Hadoop / MapReduce
-🔥 Big Data Processing	Apache Spark / PySpark
-🧮 Query Engine	Spark SQL
-📊 Analytics	Python / PySpark / ML techniques
-🚀 Backend	FastAPI
-⚛️ Frontend	Next.js / React
-🔷 Language	TypeScript
-📈 Visualization	Web-based interactive charts/maps
-🔧 Version Control	Git / GitHub
+### 🐍 Data & Processing
+
+<img src="https://skillicons.dev/icons?i=python,hadoop,apache,spark&theme=dark" />
+
+### 🚀 Application
+
+<img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,typescript,tailwind&theme=dark" />
+
+### 🔧 Engineering
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=dark" />
 
 </div>
 
-⸻
+| Layer | Technology | Purpose |
+|---|---|---|
+| 🐍 Language | **Python** | Data processing & analytics |
+| 🗄️ Storage | **HDFS** | Distributed storage |
+| ⚙️ Processing | **Hadoop / MapReduce** | Distributed computation |
+| 🔥 Processing | **Apache Spark / PySpark** | Large-scale processing |
+| 🧮 Query | **Spark SQL** | Distributed analytical queries |
+| 📊 Analytics | **Python / PySpark** | Statistical & analytical processing |
+| 🚀 Backend | **FastAPI** | Analytics API |
+| ⚛️ Frontend | **Next.js / React** | Interactive application |
+| 🔷 Frontend Language | **TypeScript** | Type-safe frontend development |
+| 🔧 Version Control | **Git / GitHub** | Source control |
 
-🧱 Project Structure
+---
 
+# 🧱 Project Structure
+
+```text
 CityPulse/
 │
-├── data/
+├── 📁 data/
 │   ├── raw/
 │   │   ├── mobility/
 │   │   ├── weather/
 │   │   ├── air_quality/
 │   │   ├── events/
 │   │   └── geography/
-│   │
 │   ├── processed/
 │   └── sample/
 │
-├── hadoop/
+├── 📁 hadoop/
 │   ├── hdfs/
 │   └── mapreduce/
 │
-├── spark/
+├── 📁 spark/
 │   ├── ingestion/
 │   ├── preprocessing/
 │   ├── integration/
 │   └── sql/
 │
-├── analytics/
+├── 📁 analytics/
 │   ├── eda/
 │   ├── statistics/
 │   ├── clustering/
@@ -747,388 +706,357 @@ CityPulse/
 │   ├── association/
 │   └── anomaly_detection/
 │
-├── backend/
+├── 📁 backend/
 │   └── app/
 │       ├── api/
 │       ├── services/
 │       ├── schemas/
 │       └── main.py
 │
-├── frontend/
+├── 📁 frontend/
 │   ├── app/
 │   ├── components/
 │   ├── services/
 │   └── public/
 │
-├── notebooks/
-│
-├── tests/
-│
-├── docs/
+├── 📁 notebooks/
+├── 📁 tests/
+├── 📁 docs/
 │
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
 
-The exact structure may evolve as implementation progresses.
+> The structure may evolve as implementation progresses.
 
-⸻
+---
 
-📈 Big Data Justification
+# 📈 Why This Is a Big Data Project
 
-CityPulse is designed around the principles of Big Data Analytics rather than simply applying machine learning to a small CSV file.
+CityPulse is designed around the core characteristics of Big Data.
 
-1️⃣ Volume
+<div align="center">
 
-Historical and high-frequency datasets can produce large numbers of observations.
+| **VOLUME** | **VARIETY** | **VELOCITY** | **VERACITY** | **VALUE** |
+|:---:|:---:|:---:|:---:|:---:|
+| 📦 | 🧩 | ⚡ | 🛡️ | 💎 |
+| Large historical observations | Multiple data formats | High-frequency observations | Noisy/incomplete data | Actionable insights |
 
-2️⃣ Variety
+</div>
 
-The project integrates:
+### Volume
+Historical and high-frequency urban datasets can produce large numbers of observations.
 
-CSV
-JSON
-API responses
-Geospatial data
-Time-series data
-Structured datasets
+### Variety
+CityPulse combines structured, time-series, geospatial, API-derived and other heterogeneous data.
 
-3️⃣ Velocity
+### Velocity
+Some urban observations can arrive at high temporal frequencies.
 
-Some urban datasets can be generated at high temporal frequencies.
+### Veracity
+Real-world data can contain missing values, duplicates, inconsistencies and sensor anomalies.
 
-4️⃣ Veracity
+### Value
+The final goal is to transform fragmented observations into useful analytical insights.
 
-Datasets may contain:
+---
 
-* Missing values
-* Duplicate records
-* Inconsistent timestamps
-* Different geographic references
-* Sensor anomalies
+# ⚡ Scalability & Performance
 
-5️⃣ Value
+CityPulse will evaluate the value of distributed processing through measurable experiments.
 
-The objective is to transform raw heterogeneous data into meaningful urban insights.
+```text
+                 DATASET
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+   Local Processing       Spark Processing
+          │                   │
+          └─────────┬─────────┘
+                    ▼
+        ┌─────────────────────┐
+        │ Performance Metrics │
+        ├─────────────────────┤
+        │ Execution Time      │
+        │ Throughput          │
+        │ Memory Usage        │
+        │ Scalability         │
+        └─────────────────────┘
+```
 
-⸻
+Where practical, controlled benchmark datasets may be used to evaluate scalability.
 
-⚡ Scalability & Performance
+> Generated benchmark data will be clearly identified and will not be presented as real-world observations.
 
-A major objective is to demonstrate why distributed technologies are useful.
+---
 
-CityPulse will evaluate performance through metrics such as:
+# 🧪 Testing & Validation
 
-Dataset Size
-     │
-     ▼
-┌───────────────────┐
-│ Processing Method │
-├───────────────────┤
-│ Local Processing  │
-│       vs          │
-│ Spark Processing  │
-└─────────┬─────────┘
-          │
-          ▼
-Execution Time
-Memory Usage
-Throughput
-Scalability
+CityPulse is intended to be validated across the entire pipeline.
 
-Where practical, benchmark datasets may be expanded for controlled performance testing.
+### 🗄️ Data
 
-Generated benchmark data will be clearly identified and will not be presented as real-world observations.
+- Schema validation
+- Missing-value checks
+- Duplicate detection
+- Timestamp validation
+- Geographic validation
 
-⸻
+### ⚙️ Big Data Pipeline
 
-🧪 Testing & Validation
+- HDFS validation
+- MapReduce output validation
+- Spark transformation checks
+- Spark SQL query validation
 
-CityPulse will include testing across multiple layers.
+### 🧠 Analytics
 
-🗄️ Data Layer
+- Statistical sanity checks
+- Model validation
+- Cluster evaluation
+- Anomaly validation
+- Association-rule validation
 
-* Schema validation
-* Missing-value checks
-* Duplicate detection
-* Timestamp validation
-* Geographic validation
+### 🌐 Application
 
-⚙️ Processing Layer
+- API testing
+- UI testing
+- Integration testing
+- End-to-end testing
+- Edge-case validation
 
-* HDFS verification
-* MapReduce output validation
-* Spark transformation tests
-* Spark SQL query validation
+---
 
-🧠 Analytics Layer
+# 🔐 Data & Research Integrity
 
-* Model validation
-* Statistical sanity checks
-* Cluster evaluation
-* Anomaly verification
-* Association-rule validation
-
-🌐 Application Layer
-
-* API testing
-* Frontend testing
-* Integration testing
-* End-to-end workflow testing
-
-⸻
-
-🔐 Data & Research Integrity
-
-CityPulse follows a data-first and reproducible approach.
+CityPulse follows a reproducible and data-first approach.
 
 The project aims to:
 
-* Document data sources
-* Record dataset schemas
-* Preserve preprocessing logic
-* Separate raw and processed data
-* Clearly distinguish real and generated data
-* Avoid unsupported causal claims
-* Document analytical assumptions
-* Validate results before presenting them
+- document all data sources,
+- preserve preprocessing logic,
+- maintain raw and processed data separately,
+- document schemas and assumptions,
+- distinguish real data from generated benchmark data,
+- validate analytical outputs, and
+- avoid unsupported causal claims.
 
-Most importantly:
+### ⚠️ Analytical Principle
 
-Correlation discovered by CityPulse will not automatically be interpreted as causation.
+> **Correlation discovered by CityPulse does not automatically imply causation.**
 
-⸻
+---
 
-🗺️ Development Roadmap
+# 🗺️ Roadmap
 
 <div align="center">
 
-🚀 CityPulse Development Journey
+### 🚀 FROM RAW DATA TO URBAN INTELLIGENCE
 
-PHASE 01  ████████████████████  Foundation
-    ↓
-PHASE 02  ████████████████████  Data Acquisition
-    ↓
-PHASE 03  ████████████████████  Hadoop + HDFS
-    ↓
-PHASE 04  ████████████████████  PySpark Integration
-    ↓
-PHASE 05  ████████████████████  EDA + Statistics
-    ↓
-PHASE 06  ████████████████████  Advanced Analytics
-    ↓
-PHASE 07  ████████████████████  Backend API
-    ↓
-PHASE 08  ████████████████████  Dashboard
-    ↓
-PHASE 09  ████████████████████  Testing + Optimization
-    ↓
-PHASE 10  ████████████████████  Final Demo + Documentation
 </div>
 
-⸻
+| Phase | Focus | Status |
+|---|---|:---:|
+| **01** | 🧱 Foundation & Architecture | 🟡 |
+| **02** | 📥 Data Discovery & Acquisition | ⚪ |
+| **03** | 🗄️ Hadoop, HDFS & MapReduce | ⚪ |
+| **04** | 🔥 PySpark & Data Integration | ⚪ |
+| **05** | 📊 EDA & Statistical Analytics | ⚪ |
+| **06** | 🧠 Advanced Analytics | ⚪ |
+| **07** | 🚀 Backend & Analytics API | ⚪ |
+| **08** | 🖥️ Dashboard & Visualization | ⚪ |
+| **09** | 🧪 Testing & Optimization | ⚪ |
+| **10** | 🎓 Final Demo & Documentation | ⚪ |
 
-📅 Project Timeline
+**Legend:** 🟡 Active • 🟢 Completed • ⚪ Planned
 
-Phase	Major Activities
-01	Problem definition, objectives, research, datasets, architecture
-02	Data acquisition, inspection, schema, initial exploration
-03	Hadoop, HDFS and MapReduce
-04	PySpark preprocessing and integration
-05	EDA and statistical analysis
-06	Clustering, classification, association rules, anomaly detection
-07	Spark SQL, optimization and scalability
-08	FastAPI backend + interactive dashboard
-09	Testing, debugging and validation
-10	Final report, presentation, demonstration and submission
+---
 
-⸻
+# 🎓 Academic Alignment
 
-🎓 Academic Alignment
+CityPulse directly maps to the learning objectives of **Big Data Analytics — CSE 3712**.
 
-CityPulse directly supports the learning objectives of Big Data Analytics — CSE 3712.
+| Course Requirement | CityPulse |
+|---|---|
+| Heterogeneous Data Acquisition | 🚗 + 🌦️ + 🌫️ + 🎫 + 🗺️ |
+| Hadoop | ⚙️ Hadoop Ecosystem |
+| HDFS | 🗄️ Distributed Storage |
+| MapReduce | 🔄 Distributed Computation |
+| PySpark | 🔥 Distributed Processing |
+| Spark SQL | 🧮 Analytical Querying |
+| Statistics | 📐 Statistical Analysis |
+| Visualization | 📊 Interactive Dashboard |
+| Classification | 🎯 Urban Condition Analytics |
+| Clustering | 🧩 Area/Behavior Segmentation |
+| Association Rules | 🔗 Frequent Conditions |
+| Industry Application | 🏙️ Urban Analytics |
 
-Course Requirement	CityPulse Implementation
-Heterogeneous data acquisition	Multiple urban data domains
-Hadoop	Distributed ecosystem
-HDFS	Distributed storage
-MapReduce	Distributed computation
-PySpark	Large-scale processing
-Spark SQL	Analytical querying
-Statistics	Urban statistical analysis
-Visualization	Interactive dashboard
-Classification	Urban condition analytics
-Clustering	Geographic/behavioral grouping
-Association Rules	Frequent condition discovery
-Industry Application	Real-world urban analytics
+---
 
-⸻
+# 🌟 What Makes CityPulse Different?
 
-🌟 What Makes CityPulse Different?
+<div align="center">
 
-❌ Not just a dashboard
+### ❌ Not just a dashboard
 
-CityPulse focuses on the analytical pipeline behind the visualization.
+### ❌ Not just one dataset
 
-❌ Not just a machine-learning model
+### ❌ Not just one ML model
 
-Multiple analytical approaches are combined.
+### ❌ Not just prediction
 
-❌ Not just one dataset
+### ✅ A complete Big Data analytics pipeline
 
-The project integrates heterogeneous urban domains.
+</div>
 
-❌ Not just prediction
+```text
+             🌐 HETEROGENEOUS DATA
+                      ↓
+              🗄️ DISTRIBUTED STORAGE
+                      ↓
+               ⚙️ MAPREDUCE
+                      ↓
+                🔥 PYSPARK
+                      ↓
+                 🧮 SPARK SQL
+                      ↓
+              📊 STATISTICAL ANALYSIS
+                      ↓
+               🧠 DATA MINING / ML
+                      ↓
+                 🚀 FASTAPI
+                      ↓
+              ⚛️ NEXT.JS DASHBOARD
+                      ↓
+                🌆 URBAN INSIGHTS
+```
 
-The primary goal is discovering relationships, patterns, anomalies, and urban behavior.
+---
 
-✅ It is an end-to-end Big Data system
+# 🔮 Future Scope
 
-DATA
- ↓
-STORAGE
- ↓
-DISTRIBUTED PROCESSING
- ↓
-INTEGRATION
- ↓
-STATISTICS
- ↓
-DATA MINING
- ↓
-MACHINE LEARNING
- ↓
-API
- ↓
-VISUALIZATION
- ↓
-URBAN INSIGHTS
+Potential future extensions include:
 
-⸻
+- 📡 Real-time streaming
+- 🔄 Apache Kafka
+- 🧠 Advanced ML models
+- 🛰️ Satellite / remote-sensing data
+- 🌐 Multi-city analytics
+- 📱 Mobile application
+- 🤖 AI-assisted insight generation
+- 📊 Real-time monitoring
+- 🔔 Intelligent anomaly alerts
 
-🔮 Future Scope
+These are **future possibilities** and are not considered implemented until actually developed and validated.
 
-Future versions could extend CityPulse with:
+---
 
-* 📡 Real-time streaming
-* 🔄 Apache Kafka integration
-* 🧠 More advanced ML models
-* 🌐 Larger geographic coverage
-* 🛰️ Satellite / remote-sensing data
-* 📱 Mobile interface
-* 🏙️ Multi-city comparison
-* 🤖 AI-assisted urban insights
-* 📊 Real-time monitoring
-* 🔔 Intelligent anomaly alerts
+# 📚 Learning Outcomes
 
-These are future possibilities and are not considered implemented unless explicitly added to the project.
+CityPulse provides practical exposure to:
 
-⸻
-
-📚 Learning Outcomes
-
-Through CityPulse, the project aims to develop practical expertise in:
-
+```text
 Python
-   ↓
+  ↓
 Data Engineering
-   ↓
+  ↓
 Hadoop
-   ↓
+  ↓
 HDFS
-   ↓
+  ↓
 MapReduce
-   ↓
+  ↓
 PySpark
-   ↓
+  ↓
 Spark SQL
-   ↓
+  ↓
 Statistics
-   ↓
-Machine Learning
-   ↓
+  ↓
 Data Mining
-   ↓
+  ↓
+Machine Learning
+  ↓
 FastAPI
-   ↓
+  ↓
 Next.js
-   ↓
+  ↓
 End-to-End System Engineering
+```
 
-⸻
+---
 
-📊 Project Status
+# 📊 Project Status
 
 <div align="center">
 
-🟡 Active Development
+<img src="https://img.shields.io/badge/Project-Active%20Development-00C853?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Domain-Big%20Data%20Analytics-7F00FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Case%20Study-Gurugram-0072FF?style=for-the-badge"/>
 
-CityPulse is currently under active development.
+### 🟡 **ACTIVE DEVELOPMENT**
+
+CityPulse is being developed incrementally as an end-to-end Big Data analytics platform.
 
 </div>
 
-Current work is focused on building the complete data pipeline and progressively integrating:
+---
 
-Data Sources
-     ↓
-Hadoop / HDFS
-     ↓
-MapReduce
-     ↓
-PySpark
-     ↓
-Analytics
-     ↓
-FastAPI
-     ↓
-Next.js Dashboard
-
-Features will be marked as completed only after they have been implemented and validated.
-
-⸻
-
-🧭 Project Vision
+# 🧭 Vision
 
 <div align="center">
 
-🌆 From Urban Data to Urban Intelligence
-
-CityPulse aims to demonstrate how distributed Big Data technologies can transform fragmented urban datasets into a unified analytical system capable of revealing meaningful patterns within a city’s environment.
+<img src="https://capsule-render.vercel.app/api?type=rounded&height=150&color=0:7F00FF,50:0072FF,100:00C6FF&text=FROM%20URBAN%20DATA%20TO%20URBAN%20INTELLIGENCE&fontSize=26&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
 
 <br>
 
-Collect → Store → Process → Integrate → Analyze → Visualize → Understand
+### **Collect → Store → Process → Integrate → Analyze → Visualize → Understand**
+
+<br>
+
+> **Urban data is everywhere.  
+> The challenge is turning it into understanding.**
 
 </div>
 
-⸻
+---
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0072FF,100:7F00FF&height=100&section=footer&text=Arpit%20Pandey&fontSize=35&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
 
-Arpit Pandey
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arpit7799&theme=react-dark&hide_border=true&area=true" width="95%"/>
 
-B.Tech Computer Science & Engineering
-BML Munjal University
+### **Arpit Pandey**
 
-Course: Big Data Analytics — CSE 3712
-Academic Year: 2026–27
+**B.Tech — Computer Science & Engineering**  
+**BML Munjal University**
+
+**Big Data Analytics — CSE 3712**  
+**Academic Year 2026–27**
 
 <br>
+
+<a href="https://github.com/arpit7799">
+<img src="https://img.shields.io/badge/GitHub-arpit7799-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/arpit-pandey-a26211320">
+<img src="https://img.shields.io/badge/LinkedIn-Arpit%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
 </div>
 
-⸻
+---
 
 <div align="center">
 
-⭐ CityPulse
+<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:00C6FF,50:0072FF,100:7F00FF&section=footer" width="100%"/>
 
-Urban data is everywhere.
+### 🌆 **CITYPULSE**
 
-The challenge is turning it into understanding.
+**Urban Data • Big Data • Analytics • Intelligence**
 
-<br>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,50:0072FF,100:00C6FF&height=120&section=footer" width="100%"/>
+<sub>Built as an academic Big Data Analytics project at BML Munjal University.</sub>
+
 </div>
