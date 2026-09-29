@@ -1,0 +1,11 @@
+administrative_zone,num_sectors,center_latitude,center_longitude,avg_elevation_meters,data_status,source_domain,source_dataset,generation_method
+Aravalli Foothills,1,28.4288,77.1511,258.0,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Cyber City Zone,1,28.4952,77.0894,229.0,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Manesar Industrial Belt,5,28.35286,76.93636,244.2,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Southern Plains,1,28.3846,77.0494,235.0,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Zone 1 (Old Gurgaon & Northern Fringe),23,28.47256086956522,77.02543913043478,235.1304347826087,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Zone 2 (Central Gurgaon & MG Road),21,28.45588095238095,77.05917142857143,232.8095238095238,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Zone 3 (DLF Phases & Golf Course Road),13,28.43246153846154,77.10368461538461,235.23076923076923,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Zone 4 (Southern Peripheral Road / Sohna Rd),18,28.403149999999997,77.04612222222221,231.38888888888889,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Zone 5 (New Gurgaon / NH-48 Corridor),20,28.393215,76.95578,228.1,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+Zone 6 (Dwarka Expressway Sectors 99-115),20,28.482175,76.9688,232.15,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone

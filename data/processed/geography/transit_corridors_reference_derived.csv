@@ -1,0 +1,8 @@
+nearest_transit_corridor,num_sectors,corridor_latitude,corridor_longitude,data_status,source_domain,source_dataset,generation_method
+Dwarka Expressway,17,28.48287647058824,76.96780000000001,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
+Faridabad-Gurgaon Rd,1,28.4288,77.1511,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
+Golf Course Road,16,28.4371,77.09626875000001,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
+NH-48,11,28.410300000000003,77.00759090909091,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
+NH-48 / Rapid Metro,1,28.4952,77.0894,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
+Sohna Road,1,28.3846,77.0494,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
+Sohna Road / SPR,76,28.43259736842105,77.01451052631579,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by nearest_transit_corridor
