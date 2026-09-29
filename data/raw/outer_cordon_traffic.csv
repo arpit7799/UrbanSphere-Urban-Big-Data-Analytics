@@ -1,0 +1,4 @@
+location_id,location_name,total_vehicles,total_pcu,morning_peak_vehicles,morning_peak_pcu,evening_peak_vehicles,evening_peak_pcu,peak_direction_pcu,peak_direction_pcu_pct,off_peak_direction_pcu_pct,survey_type,survey_day_type,source,source_table,source_report_page
+OC1,Kherki Daula Toll Plaza (NH-48),121694,144941,9720,9086,7926,7666,4693,51.6,48.4,outer_cordon,normal_working_day,"RITES Primary Surveys, 2018",Table 3.4,3-4
+OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),134828,111344,9351,7292,6264,5167,3360,65.0,35.0,outer_cordon,normal_working_day,"RITES Primary Surveys, 2018",Table 3.4,3-4
+OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),68647,57820,4125,3255,5164,3894,2221,57.0,43.0,outer_cordon,normal_working_day,"RITES Primary Surveys, 2018",Table 3.4,3-4

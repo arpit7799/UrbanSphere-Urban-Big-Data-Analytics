@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:00C6FF,45:0072FF,100:7F00FF&text=CITYPULSE&fontSize=72&fontColor=FFFFFF&fontAlignY=38&desc=Urban%20Big%20Data%20Analytics%20%E2%80%A2%20Gurugram&descAlignY=60&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:00C6FF,45:0072FF,100:7F00FF&text=URBANSPHERE&fontSize=72&fontColor=FFFFFF&fontAlignY=38&desc=Urban%20Big%20Data%20Analytics%20%E2%80%A2%20Gurugram&descAlignY=60&descSize=20&animation=fadeIn" width="100%"/>
 
-# 🌆 CityPulse
+# 🌆 UrbanSphere
 ### **Urban Big Data Analytics Platform for Gurugram**
 
 <p>
@@ -39,7 +39,7 @@
 
 ## ✨ Overview
 
-> **CityPulse** is a Gurugram-focused Urban Big Data Analytics platform that brings together heterogeneous datasets from **mobility, weather, air quality, events, and geography** and processes them through a distributed analytics pipeline.
+> **UrbanSphere** is a Gurugram-focused Urban Big Data Analytics platform that brings together heterogeneous datasets from **mobility, weather, air quality, events, and geography** and processes them through a distributed analytics pipeline.
 
 The project is designed around one central idea:
 
@@ -49,9 +49,9 @@ The project is designed around one central idea:
 
 </div>
 
-Rather than building a dashboard around a single dataset or focusing only on prediction, CityPulse investigates **how different dimensions of a city interact across time and space**.
+Rather than building a dashboard around a single dataset or focusing only on prediction, UrbanSphere investigates **how different dimensions of a city interact across time and space**.
 
-### 🔎 What CityPulse aims to discover
+### 🔎 What UrbanSphere aims to discover
 
 | | Analytical Dimension | What We Investigate |
 |---|---|---|
@@ -81,7 +81,7 @@ However, these datasets are often:
 
 > **How can heterogeneous mobility, environmental, weather, event, and geographical data be integrated and processed at scale to discover meaningful temporal and spatial relationships within Gurugram?**
 
-CityPulse addresses this challenge by creating an end-to-end **Big Data processing and analytics pipeline**.
+UrbanSphere addresses this challenge by creating an end-to-end **Big Data processing and analytics pipeline**.
 
 ---
 
@@ -105,7 +105,7 @@ CityPulse addresses this challenge by creating an end-to-end **Big Data processi
 - 🔗 Which combinations of urban conditions frequently occur?
 - ⚡ How effectively can distributed technologies process integrated urban data?
 
-> **Important:** Events are treated as contextual variables. CityPulse is **not** primarily trying to predict whether an event occurred.
+> **Important:** Events are treated as contextual variables. UrbanSphere is **not** primarily trying to predict whether an event occurred.
 
 ---
 
@@ -131,7 +131,7 @@ This creates an environment where multiple urban signals can be studied together
 
 # 🌐 Data Ecosystem
 
-CityPulse is built around **heterogeneous data integration**.
+UrbanSphere is built around **heterogeneous data integration**.
 
 ```text
                          🌆 GURUGRAM
@@ -286,7 +286,7 @@ The final schema will be determined by the actual datasets selected and validate
 └──────────────┬────────────┘
                │
                ▼
-        🌆 CITYPULSE
+        🌆 URBANSPHERE
        INTELLIGENCE HUB
 ```
 
@@ -423,7 +423,7 @@ This supports:
 
 Urban behavior is not uniform across a city.
 
-CityPulse therefore maps geographic observations into common analytical areas.
+UrbanSphere therefore maps geographic observations into common analytical areas.
 
 ```text
 Latitude + Longitude
@@ -460,7 +460,7 @@ Different datasets operate at different resolutions.
 🗺️ Geography      → static
 ```
 
-CityPulse normalizes these observations into suitable analytical windows.
+UrbanSphere normalizes these observations into suitable analytical windows.
 
 Example:
 
@@ -476,7 +476,7 @@ Example:
 
 # 🧠 Analytics
 
-CityPulse combines several analytical techniques rather than relying on one model.
+UrbanSphere combines several analytical techniques rather than relying on one model.
 
 <div align="center">
 
@@ -524,7 +524,7 @@ Urban Observation
        └── Unusual Condition
 ```
 
-Classification is one analytical component, **not the sole objective of CityPulse**.
+Classification is one analytical component, **not the sole objective of UrbanSphere**.
 
 ---
 
@@ -572,7 +572,7 @@ Frequently Associated Condition
 
 # 📐 Statistical Analysis
 
-CityPulse can apply:
+UrbanSphere can apply:
 
 - Mean
 - Median
@@ -600,13 +600,13 @@ These relationships are investigated analytically rather than assumed to be caus
 
 ---
 
-# 🖥️ CityPulse Dashboard
+# 🖥️ UrbanSphere Dashboard
 
 The final application is planned as an interactive analytics interface.
 
 ```text
 ╔══════════════════════════════════════════════════════════╗
-║                 🌆 CITYPULSE                             ║
+║                 🌆 URBANSPHERE                             ║
 ║             GURUGRAM URBAN INTELLIGENCE                  ║
 ╠══════════════════════════════════════════════════════════╣
 ║                                                          ║
@@ -676,7 +676,7 @@ The final application is planned as an interactive analytics interface.
 # 🧱 Project Structure
 
 ```text
-CityPulse/
+UrbanSphere/
 │
 ├── 📁 data/
 │   ├── raw/
@@ -734,7 +734,7 @@ CityPulse/
 
 # 📈 Why This Is a Big Data Project
 
-CityPulse is designed around the core characteristics of Big Data.
+UrbanSphere is designed around the core characteristics of Big Data.
 
 <div align="center">
 
@@ -749,7 +749,7 @@ CityPulse is designed around the core characteristics of Big Data.
 Historical and high-frequency urban datasets can produce large numbers of observations.
 
 ### Variety
-CityPulse combines structured, time-series, geospatial, API-derived and other heterogeneous data.
+UrbanSphere combines structured, time-series, geospatial, API-derived and other heterogeneous data.
 
 ### Velocity
 Some urban observations can arrive at high temporal frequencies.
@@ -764,7 +764,7 @@ The final goal is to transform fragmented observations into useful analytical in
 
 # ⚡ Scalability & Performance
 
-CityPulse will evaluate the value of distributed processing through measurable experiments.
+UrbanSphere will evaluate the value of distributed processing through measurable experiments.
 
 ```text
                  DATASET
@@ -793,7 +793,7 @@ Where practical, controlled benchmark datasets may be used to evaluate scalabili
 
 # 🧪 Testing & Validation
 
-CityPulse is intended to be validated across the entire pipeline.
+UrbanSphere is intended to be validated across the entire pipeline.
 
 ### 🗄️ Data
 
@@ -830,7 +830,7 @@ CityPulse is intended to be validated across the entire pipeline.
 
 # 🔐 Data & Research Integrity
 
-CityPulse follows a reproducible and data-first approach.
+UrbanSphere follows a reproducible and data-first approach.
 
 The project aims to:
 
@@ -844,7 +844,7 @@ The project aims to:
 
 ### ⚠️ Analytical Principle
 
-> **Correlation discovered by CityPulse does not automatically imply causation.**
+> **Correlation discovered by UrbanSphere does not automatically imply causation.**
 
 ---
 
@@ -875,9 +875,9 @@ The project aims to:
 
 # 🎓 Academic Alignment
 
-CityPulse directly maps to the learning objectives of **Big Data Analytics — CSE 3712**.
+UrbanSphere directly maps to the learning objectives of **Big Data Analytics — CSE 3712**.
 
-| Course Requirement | CityPulse |
+| Course Requirement | UrbanSphere |
 |---|---|
 | Heterogeneous Data Acquisition | 🚗 + 🌦️ + 🌫️ + 🎫 + 🗺️ |
 | Hadoop | ⚙️ Hadoop Ecosystem |
@@ -894,7 +894,7 @@ CityPulse directly maps to the learning objectives of **Big Data Analytics — C
 
 ---
 
-# 🌟 What Makes CityPulse Different?
+# 🌟 What Makes UrbanSphere Different?
 
 <div align="center">
 
@@ -954,7 +954,7 @@ These are **future possibilities** and are not considered implemented until actu
 
 # 📚 Learning Outcomes
 
-CityPulse provides practical exposure to:
+UrbanSphere provides practical exposure to:
 
 ```text
 Python
@@ -996,7 +996,7 @@ End-to-End System Engineering
 
 ### 🟡 **ACTIVE DEVELOPMENT**
 
-CityPulse is being developed incrementally as an end-to-end Big Data analytics platform.
+UrbanSphere is being developed incrementally as an end-to-end Big Data analytics platform.
 
 </div>
 
@@ -1053,7 +1053,7 @@ CityPulse is being developed incrementally as an end-to-end Big Data analytics p
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:00C6FF,50:0072FF,100:7F00FF&section=footer" width="100%"/>
 
-### 🌆 **CITYPULSE**
+### 🌆 **URBANSPHERE**
 
 **Urban Data • Big Data • Analytics • Intelligence**
 

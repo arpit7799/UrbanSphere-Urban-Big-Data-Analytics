@@ -1,0 +1,21 @@
+column_name,description,data_type,applies_to
+location_id,Unique identifier for a survey location,string,All
+location_name,"Name of road segment, intersection, or outer-cordon location",string,All
+total_vehicles,Observed total traffic volume reported in vehicles,integer,Mid-block / outer cordon
+total_pcu,Observed traffic volume converted to Passenger Car Units,integer,Mid-block / outer cordon
+morning_peak_vehicles,Observed morning peak-hour traffic volume,integer,Mid-block / outer cordon
+morning_peak_pcu,Observed morning peak-hour traffic in PCUs,integer,Mid-block / outer cordon
+evening_peak_vehicles,Observed evening peak-hour traffic volume,integer,Mid-block / outer cordon
+evening_peak_pcu,Observed evening peak-hour traffic in PCUs,integer,Mid-block / outer cordon
+peak_direction_pcu_pct,Share of peak-direction PCUs during peak traffic,percent,Mid-block / outer cordon
+*_pct,Vehicle composition percentage from the source table,percent,Mid-block
+*_est_vehicles,Analytically reconstructed vehicle count from total × composition percentage,integer,Derived only
+survey_interval_minutes,Interval used for intersection turning-movement survey,integer,Intersection
+survey_duration_hours,Survey duration for intersection turning-movement counts,integer,Intersection
+road_length_km,Road-network length represented by speed band,float,Speed
+percentage_of_road_network,Share of 567.3 km road network in speed band,percent,Speed
+pm25_ug_m3,Monthly PM2.5 concentration reported in DPR,float,Environment
+aqi,Monthly AQI reported in DPR,float,Environment
+source_table,Original DPR table from which the value was taken,string,All
+source_report_page,Printed chapter/page reference in DPR,string,All
+data_status,observed or derived,string,All

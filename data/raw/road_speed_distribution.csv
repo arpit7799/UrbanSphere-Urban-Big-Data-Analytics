@@ -1,0 +1,9 @@
+metric,speed_band,road_length_km,percentage_of_road_network,average_journey_speed_peak_kmh,average_running_speed_peak_kmh,total_network_length_km,source,source_table,source_report_page
+peak_journey_speed,<10 km/h,89.3,15.7,22.2,,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_journey_speed,10-20 km/h,120.05,21.2,22.2,,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_journey_speed,21-30 km/h,171.35,30.2,22.2,,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_journey_speed,>30 km/h,186.6,32.9,22.2,,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_running_speed,<10 km/h,67.1,11.8,,28.5,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_running_speed,10-20 km/h,89.4,15.8,,28.5,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_running_speed,21-30 km/h,102.3,18.0,,28.5,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7
+peak_running_speed,>30 km/h,305.8,54.4,,28.5,567.3,"RITES Primary Surveys, 2018",Table 3.8 / Table 3.9,3-7

@@ -1,0 +1,124 @@
+sector_id,sector_name,administrative_zone,primary_land_use,latitude,longitude,elevation_meters,pincode,civic_authority,nearest_transit_corridor
+SEC_001,Sector 1,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4675,77.0072,241,122001,MCG / GMDA,Sohna Road / SPR
+SEC_002,Sector 2,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4643,77.0135,234,122001,MCG / GMDA,Sohna Road / SPR
+SEC_003,Sector 3,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4508,77.0327,231,122001,MCG / GMDA,Sohna Road / SPR
+SEC_004,Sector 4,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4592,77.0243,242,122001,MCG / GMDA,Sohna Road / SPR
+SEC_005,Sector 5,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4919,77.0487,241,122001,MCG / GMDA,Sohna Road / SPR
+SEC_006,Sector 6,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.491,77.0167,236,122001,MCG / GMDA,Sohna Road / SPR
+SEC_007,Sector 7,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4696,77.0215,239,122001,MCG / GMDA,Sohna Road / SPR
+SEC_008,Sector 8,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4603,77.0148,240,122001,MCG / GMDA,Sohna Road / SPR
+SEC_009,Sector 9,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.485,77.0032,224,122001,MCG / GMDA,Sohna Road / SPR
+SEC_010,Sector 10,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.479,77.0399,238,122001,MCG / GMDA,Sohna Road / SPR
+SEC_011,Sector 11,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4712,77.0129,237,122001,MCG / GMDA,Sohna Road / SPR
+SEC_012,Sector 12,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4972,77.0222,225,122001,MCG / GMDA,Sohna Road / SPR
+SEC_013,Sector 13,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4805,77.0036,234,122001,MCG / GMDA,Sohna Road / SPR
+SEC_014,Sector 14,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4586,77.0258,234,122001,MCG / GMDA,Sohna Road / SPR
+SEC_015,Sector 15,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4723,77.0414,230,122001,MCG / GMDA,Sohna Road / SPR
+SEC_016,Sector 16,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4578,77.0232,241,122001,MCG / GMDA,Sohna Road / SPR
+SEC_017,Sector 17,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.494,77.0156,227,122001,MCG / GMDA,Sohna Road / SPR
+SEC_018,Sector 18,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4742,77.0328,241,122001,MCG / GMDA,Sohna Road / SPR
+SEC_019,Sector 19,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4807,77.0418,236,122001,MCG / GMDA,Sohna Road / SPR
+SEC_020,Sector 20,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4551,77.0446,226,122001,MCG / GMDA,Sohna Road / SPR
+SEC_021,Sector 21,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4683,77.042,242,122001,MCG / GMDA,Sohna Road / SPR
+SEC_022,Sector 22,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4655,77.0192,231,122001,MCG / GMDA,Sohna Road / SPR
+SEC_023,Sector 23,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4749,77.0375,238,122001,MCG / GMDA,Sohna Road / SPR
+SEC_024,Sector 24,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4796,77.0802,229,122002,MCG / GMDA,NH-48
+SEC_025,Sector 25,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4543,77.0709,236,122002,MCG / GMDA,NH-48
+SEC_026,Sector 26,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4436,77.0572,226,122002,MCG / GMDA,Sohna Road / SPR
+SEC_027,Sector 27,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4603,77.0484,234,122002,MCG / GMDA,Sohna Road / SPR
+SEC_028,Sector 28,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4587,77.0602,235,122002,MCG / GMDA,Sohna Road / SPR
+SEC_029,Sector 29,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4567,77.06,235,122002,MCG / GMDA,Sohna Road / SPR
+SEC_030,Sector 30,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4423,77.0616,226,122002,MCG / GMDA,Sohna Road / SPR
+SEC_031,Sector 31,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4415,77.0417,225,122002,MCG / GMDA,NH-48
+SEC_032,Sector 32,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4574,77.0683,238,122002,MCG / GMDA,NH-48
+SEC_033,Sector 33,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4643,77.066,223,122002,MCG / GMDA,NH-48
+SEC_034,Sector 34,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4519,77.0746,228,122002,MCG / GMDA,NH-48
+SEC_035,Sector 35,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4638,77.0702,229,122002,MCG / GMDA,Sohna Road / SPR
+SEC_036,Sector 36,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4629,77.0457,237,122002,MCG / GMDA,Sohna Road / SPR
+SEC_037,Sector 37,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4409,77.0418,240,122002,MCG / GMDA,Sohna Road / SPR
+SEC_038,Sector 38,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4632,77.0481,234,122002,MCG / GMDA,Sohna Road / SPR
+SEC_039,Sector 39,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4548,77.0535,239,122002,MCG / GMDA,Sohna Road / SPR
+SEC_040,Sector 40,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4591,77.0547,241,122002,MCG / GMDA,Sohna Road / SPR
+SEC_041,Sector 41,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4466,77.0471,224,122002,MCG / GMDA,Sohna Road / SPR
+SEC_042,Sector 42,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.445,77.0526,236,122002,MCG / GMDA,Golf Course Road
+SEC_043,Sector 43,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4669,77.0782,234,122002,MCG / GMDA,Golf Course Road
+SEC_044,Sector 44,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4597,77.0616,240,122002,MCG / GMDA,Golf Course Road
+SEC_045,Sector 45,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4287,77.1196,229,122011,MCG / GMDA,Golf Course Road
+SEC_046,Sector 46,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4213,77.0878,233,122011,MCG / GMDA,Golf Course Road
+SEC_047,Sector 47,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.452,77.0839,234,122011,MCG / GMDA,Golf Course Road
+SEC_048,Sector 48,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4237,77.1089,232,122011,MCG / GMDA,Golf Course Road
+SEC_049,Sector 49,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4443,77.1178,230,122011,MCG / GMDA,Golf Course Road
+SEC_050,Sector 50,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4525,77.0984,242,122011,MCG / GMDA,Golf Course Road
+SEC_051,Sector 51,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4242,77.1199,230,122011,MCG / GMDA,Golf Course Road
+SEC_052,Sector 52,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.445,77.1234,242,122011,MCG / GMDA,Golf Course Road
+SEC_053,Sector 53,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4335,77.0922,235,122011,MCG / GMDA,Golf Course Road
+SEC_054,Sector 54,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4432,77.102,240,122011,MCG / GMDA,Golf Course Road
+SEC_055,Sector 55,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4173,77.105,234,122011,MCG / GMDA,Golf Course Road
+SEC_056,Sector 56,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4166,77.0756,235,122011,MCG / GMDA,Golf Course Road
+SEC_057,Sector 57,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4197,77.1134,242,122011,MCG / GMDA,Golf Course Road
+SEC_058,Sector 58,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3889,77.0579,234,122018,MCG / GMDA,Sohna Road / SPR
+SEC_059,Sector 59,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4024,77.049,238,122018,MCG / GMDA,Sohna Road / SPR
+SEC_060,Sector 60,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4285,77.0496,237,122018,MCG / GMDA,Sohna Road / SPR
+SEC_061,Sector 61,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4104,77.0439,223,122018,MCG / GMDA,Sohna Road / SPR
+SEC_062,Sector 62,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3878,77.0328,235,122018,MCG / GMDA,Sohna Road / SPR
+SEC_063,Sector 63,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3838,77.0427,222,122018,MCG / GMDA,Sohna Road / SPR
+SEC_064,Sector 64,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4183,77.05,233,122018,MCG / GMDA,Sohna Road / SPR
+SEC_065,Sector 65,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4086,77.066,241,122018,MCG / GMDA,Sohna Road / SPR
+SEC_066,Sector 66,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4196,77.0302,224,122018,MCG / GMDA,Sohna Road / SPR
+SEC_067,Sector 67,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3961,77.0551,235,122018,MCG / GMDA,Sohna Road / SPR
+SEC_068,Sector 68,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4153,77.0163,225,122018,MCG / GMDA,Sohna Road / SPR
+SEC_069,Sector 69,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4132,77.0323,229,122018,MCG / GMDA,Sohna Road / SPR
+SEC_070,Sector 70,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3996,77.0578,236,122018,MCG / GMDA,Sohna Road / SPR
+SEC_071,Sector 71,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3853,77.0307,235,122018,MCG / GMDA,Sohna Road / SPR
+SEC_072,Sector 72,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4288,77.0647,227,122018,MCG / GMDA,Sohna Road / SPR
+SEC_073,Sector 73,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3833,77.0444,230,122018,MCG / GMDA,Sohna Road / SPR
+SEC_074,Sector 74,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3892,77.0491,225,122018,MCG / GMDA,Sohna Road / SPR
+SEC_075,Sector 75,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3976,77.0577,236,122018,MCG / GMDA,Sohna Road / SPR
+SEC_076,Sector 76,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4004,76.9858,224,122004,MCG / GMDA,Sohna Road / SPR
+SEC_077,Sector 77,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4045,76.937,223,122004,MCG / GMDA,Sohna Road / SPR
+SEC_078,Sector 78,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3953,76.9314,230,122004,MCG / GMDA,Sohna Road / SPR
+SEC_079,Sector 79,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3705,76.9661,227,122004,MCG / GMDA,Sohna Road / SPR
+SEC_080,Sector 80,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3742,76.9769,229,122004,MCG / GMDA,Sohna Road / SPR
+SEC_081,Sector 81,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3922,76.9525,222,122004,MCG / GMDA,Sohna Road / SPR
+SEC_082,Sector 82,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.393,76.9699,239,122004,MCG / GMDA,Sohna Road / SPR
+SEC_083,Sector 83,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4082,76.9348,224,122004,MCG / GMDA,Sohna Road / SPR
+SEC_084,Sector 84,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3722,76.9372,230,122004,MCG / GMDA,Sohna Road / SPR
+SEC_085,Sector 85,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.381,76.9689,222,122004,MCG / GMDA,Sohna Road / SPR
+SEC_086,Sector 86,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4129,76.9707,240,122004,MCG / GMDA,Sohna Road / SPR
+SEC_087,Sector 87,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4176,76.9716,224,122004,MCG / GMDA,Sohna Road / SPR
+SEC_088,Sector 88,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3811,76.9467,229,122004,MCG / GMDA,Sohna Road / SPR
+SEC_089,Sector 89,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3985,76.971,223,122004,MCG / GMDA,Sohna Road / SPR
+SEC_090,Sector 90,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4005,76.9336,237,122004,MCG / GMDA,Sohna Road / SPR
+SEC_091,Sector 91,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.372,76.9534,229,122004,MCG / GMDA,Sohna Road / SPR
+SEC_092,Sector 92,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3985,76.9357,239,122004,MCG / GMDA,Sohna Road / SPR
+SEC_093,Sector 93,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3892,76.9538,226,122004,MCG / GMDA,Sohna Road / SPR
+SEC_094,Sector 94,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.409,76.9305,223,122004,MCG / GMDA,Sohna Road / SPR
+SEC_095,Sector 95,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3935,76.9881,222,122004,MCG / GMDA,Sohna Road / SPR
+SEC_096,Sector 96,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4537,76.9829,236,122006,MCG / GMDA,Sohna Road / SPR
+SEC_097,Sector 97,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5038,76.9746,229,122006,MCG / GMDA,Sohna Road / SPR
+SEC_098,Sector 98,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4771,76.9659,240,122006,MCG / GMDA,Sohna Road / SPR
+SEC_099,Sector 99,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4728,76.9458,226,122006,MCG / GMDA,Dwarka Expressway
+SEC_100,Sector 100,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5076,76.9657,227,122006,MCG / GMDA,Dwarka Expressway
+SEC_101,Sector 101,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4686,76.9405,233,122006,MCG / GMDA,Dwarka Expressway
+SEC_102,Sector 102,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4935,76.9612,238,122006,MCG / GMDA,Dwarka Expressway
+SEC_103,Sector 103,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4946,76.9761,235,122006,MCG / GMDA,Dwarka Expressway
+SEC_104,Sector 104,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4962,76.9716,229,122006,MCG / GMDA,Dwarka Expressway
+SEC_105,Sector 105,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4575,76.9643,232,122006,MCG / GMDA,Dwarka Expressway
+SEC_106,Sector 106,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5069,76.9493,236,122006,MCG / GMDA,Dwarka Expressway
+SEC_107,Sector 107,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4644,76.9974,233,122006,MCG / GMDA,Dwarka Expressway
+SEC_108,Sector 108,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.476,76.9608,225,122006,MCG / GMDA,Dwarka Expressway
+SEC_109,Sector 109,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4929,76.9782,239,122006,MCG / GMDA,Dwarka Expressway
+SEC_110,Sector 110,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4858,76.9502,234,122006,MCG / GMDA,Dwarka Expressway
+SEC_111,Sector 111,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5027,76.9994,235,122006,MCG / GMDA,Dwarka Expressway
+SEC_112,Sector 112,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4674,76.9739,231,122006,MCG / GMDA,Dwarka Expressway
+SEC_113,Sector 113,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4807,76.9447,225,122006,MCG / GMDA,Dwarka Expressway
+SEC_114,Sector 114,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4814,76.9879,225,122006,MCG / GMDA,Dwarka Expressway
+SEC_115,Sector 115,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4599,76.9856,235,122006,MCG / GMDA,Dwarka Expressway
+IMT_SEC_01,IMT Manesar Sector 1,Manesar Industrial Belt,Industrial & Manufacturing,28.3612,76.9241,240,122051,HSIIDC,NH-48
+IMT_SEC_02,IMT Manesar Sector 2,Manesar Industrial Belt,Heavy Industrial / Logistics,28.358,76.931,242,122051,HSIIDC,NH-48
+IMT_SEC_03,IMT Manesar Sector 3,Manesar Industrial Belt,Auto Manufacturing Zone,28.3541,76.9367,245,122051,HSIIDC,NH-48
+IMT_SEC_04,IMT Manesar Sector 4,Manesar Industrial Belt,Tech & Pharma Park,28.349,76.942,246,122051,HSIIDC,NH-48
+IMT_SEC_05,IMT Manesar Sector 5,Manesar Industrial Belt,R&D / Ancillary Sector,28.342,76.948,248,122051,HSIIDC,NH-48
+GEO_GWAL_01,Gwal Pahari Tech Zone,Aravalli Foothills,Institutional & Ecological,28.4288,77.1511,258,122003,GMDA / Forest Dept,Faridabad-Gurgaon Rd
+GEO_BADSH_01,Badshahpur Drainage Basin,Southern Plains,Natural Waterway / Drainage,28.3846,77.0494,235,122101,GMDA / Irrigation Dept,Sohna Road
+GEO_CYBER_01,DLF Cyber City Hub,Cyber City Zone,Prime IT SEZ & Commercial,28.4952,77.0894,229,122008,DLF / GMDA,NH-48 / Rapid Metro

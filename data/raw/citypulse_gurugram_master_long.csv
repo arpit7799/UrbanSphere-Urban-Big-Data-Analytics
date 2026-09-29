@@ -1,0 +1,140 @@
+dataset,location_id,location_name,location_type,metric,value,unit,period,source_table,source_page,data_status
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,daily_total_vehicles,121403.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,daily_total_pcu,107242.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,morning_peak_vehicles,10894.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,morning_peak_pcu,9030.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,evening_peak_vehicles,9586.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,evening_peak_pcu,8058.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB1,Subhash Chowk - Rajiv Chowk,mid_block,peak_direction_pcu_pct,57.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,daily_total_vehicles,76524.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,daily_total_pcu,64227.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,morning_peak_vehicles,6436.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,morning_peak_pcu,5016.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,evening_peak_vehicles,5254.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,evening_peak_pcu,4335.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB2,Rajiv Chowk - Gurugram,mid_block,peak_direction_pcu_pct,63.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,daily_total_vehicles,50533.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,daily_total_pcu,44979.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,morning_peak_vehicles,4910.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,morning_peak_pcu,3610.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,evening_peak_vehicles,3723.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,evening_peak_pcu,3065.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,peak_direction_pcu_pct,69.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,daily_total_vehicles,38759.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,daily_total_pcu,30559.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,morning_peak_vehicles,3610.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,morning_peak_pcu,2611.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,evening_peak_vehicles,3028.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,evening_peak_pcu,2261.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB4,Basai Chowk - Gurugram,mid_block,peak_direction_pcu_pct,57.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,daily_total_vehicles,75178.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,daily_total_pcu,58718.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,morning_peak_vehicles,6913.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,morning_peak_pcu,4931.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,evening_peak_vehicles,6230.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,evening_peak_pcu,4466.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB5,Railway Station - Gurugram,mid_block,peak_direction_pcu_pct,64.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,daily_total_vehicles,68206.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,daily_total_pcu,53367.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,morning_peak_vehicles,5710.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,morning_peak_pcu,4255.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,evening_peak_vehicles,4709.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,evening_peak_pcu,3482.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,peak_direction_pcu_pct,63.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,daily_total_vehicles,72727.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,daily_total_pcu,62242.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,morning_peak_vehicles,5832.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,morning_peak_pcu,4630.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,evening_peak_vehicles,5314.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,evening_peak_pcu,4432.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,peak_direction_pcu_pct,63.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,daily_total_vehicles,47760.0,vehicles,daily,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,daily_total_pcu,37873.0,PCU,daily,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,morning_peak_vehicles,4429.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,morning_peak_pcu,3261.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,evening_peak_vehicles,3783.0,vehicles,peak_hour,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,evening_peak_pcu,2842.0,PCU,peak_hour,Table 3.3,3-4,observed
+mobility,MB8,Pataudi Road - Kadipur Chowk,mid_block,peak_direction_pcu_pct,51.0,percent,peak_direction,Table 3.3,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,daily_total_vehicles,121694.0,vehicles,daily,Table 3.4,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,daily_total_pcu,144941.0,PCU,daily,Table 3.4,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,morning_peak_vehicles,9720.0,vehicles,peak_hour,Table 3.4,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,morning_peak_pcu,9086.0,PCU,peak_hour,Table 3.4,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,evening_peak_vehicles,7926.0,vehicles,peak_hour,Table 3.4,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,evening_peak_pcu,7666.0,PCU,peak_hour,Table 3.4,3-4,observed
+mobility,OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,peak_direction_pcu_pct,51.6,percent,peak_direction,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,daily_total_vehicles,134828.0,vehicles,daily,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,daily_total_pcu,111344.0,PCU,daily,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,morning_peak_vehicles,9351.0,vehicles,peak_hour,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,morning_peak_pcu,7292.0,PCU,peak_hour,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,evening_peak_vehicles,6264.0,vehicles,peak_hour,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,evening_peak_pcu,5167.0,PCU,peak_hour,Table 3.4,3-4,observed
+mobility,OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,peak_direction_pcu_pct,65.0,percent,peak_direction,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,daily_total_vehicles,68647.0,vehicles,daily,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,daily_total_pcu,57820.0,PCU,daily,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,morning_peak_vehicles,4125.0,vehicles,peak_hour,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,morning_peak_pcu,3255.0,PCU,peak_hour,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,evening_peak_vehicles,5164.0,vehicles,peak_hour,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,evening_peak_pcu,3894.0,PCU,peak_hour,Table 3.4,3-4,observed
+mobility,OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,peak_direction_pcu_pct,57.0,percent,peak_direction,Table 3.4,3-4,observed
+mobility,INT1,Huda Chowk,intersection,daily_total_vehicles,140928.0,vehicles,16_hour_day,Table 3.6,3-5,observed
+mobility,INT1,Huda Chowk,intersection,daily_total_pcu,126369.0,PCU,16_hour_day,Table 3.6,3-5,observed
+mobility,INT2,Subhash Chowk,intersection,daily_total_vehicles,221499.0,vehicles,16_hour_day,Table 3.6,3-5,observed
+mobility,INT2,Subhash Chowk,intersection,daily_total_pcu,199475.0,PCU,16_hour_day,Table 3.6,3-5,observed
+mobility,INT3,Hero Honda Chowk,intersection,daily_total_vehicles,211104.0,vehicles,16_hour_day,Table 3.6,3-5,observed
+mobility,INT3,Hero Honda Chowk,intersection,daily_total_pcu,199024.0,PCU,16_hour_day,Table 3.6,3-5,observed
+mobility,INT4,Bhagwan Vishwakarma Chowk,intersection,daily_total_vehicles,123633.0,vehicles,16_hour_day,Table 3.6,3-5,observed
+mobility,INT4,Bhagwan Vishwakarma Chowk,intersection,daily_total_pcu,96830.0,PCU,16_hour_day,Table 3.6,3-5,observed
+environment,GGM_CITY,Gurugram,city,pm25,273.0,ug/m3,2019-01,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,127.0,ug/m3,2019-01,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,8.0,ug/m3,2019-01,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,33.0,mg/m3,2019-01,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,52.0,ug/m3,2019-01,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,273.0,AQI,2019-01,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,126.0,ug/m3,2019-02,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,33.0,ug/m3,2019-02,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,43.0,ug/m3,2019-02,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,19.0,mg/m3,2019-02,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,52.0,ug/m3,2019-02,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,126.0,AQI,2019-02,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,132.0,ug/m3,2019-03,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,12.0,ug/m3,2019-03,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,16.0,ug/m3,2019-03,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,10.0,mg/m3,2019-03,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,32.0,ug/m3,2019-03,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,132.0,AQI,2019-03,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,299.0,ug/m3,2019-04,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,12.0,ug/m3,2019-04,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,7.0,ug/m3,2019-04,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,17.0,mg/m3,2019-04,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,33.0,ug/m3,2019-04,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,299.0,AQI,2019-04,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,285.0,ug/m3,2019-05,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,56.0,ug/m3,2019-05,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,14.0,ug/m3,2019-05,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,16.0,mg/m3,2019-05,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,100.0,ug/m3,2019-05,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,285.0,AQI,2019-05,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,214.0,ug/m3,2019-06,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,6.0,ug/m3,2019-06,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,11.0,ug/m3,2019-06,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,11.0,mg/m3,2019-06,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,85.0,ug/m3,2019-06,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,214.0,AQI,2019-06,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,44.0,ug/m3,2019-07,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,10.0,ug/m3,2019-07,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,20.0,ug/m3,2019-07,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,18.0,mg/m3,2019-07,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,45.0,ug/m3,2019-07,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,45.0,AQI,2019-07,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,68.0,ug/m3,2019-08,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,6.0,ug/m3,2019-08,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,20.0,ug/m3,2019-08,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,17.0,mg/m3,2019-08,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,53.0,ug/m3,2019-08,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,68.0,AQI,2019-08,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,pm25,32.0,ug/m3,2019-09,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,no2,11.0,ug/m3,2019-09,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,so2,13.0,ug/m3,2019-09,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,co,15.0,mg/m3,2019-09,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,o3,19.0,ug/m3,2019-09,Table 2.13,2-14,observed
+environment,GGM_CITY,Gurugram,city,aqi,32.0,AQI,2019-09,Table 2.13,2-14,observed

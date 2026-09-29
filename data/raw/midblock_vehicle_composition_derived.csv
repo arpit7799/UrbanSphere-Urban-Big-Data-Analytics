@@ -1,0 +1,65 @@
+location_id,location_name,vehicle_category,source_percentage,estimated_vehicle_count,derivation,is_source_observation,source,source_table,source_report_page
+MB1,Subhash Chowk - Rajiv Chowk,car_jeep_van,47.13,57217,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,two_wheeler,2.83,3436,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,taxi,33.98,41253,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,auto,5.06,6143,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,shared_auto,3.65,4431,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,bus,1.33,1615,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,goods_vehicle,4.3,5220,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB1,Subhash Chowk - Rajiv Chowk,slow_vehicle,1.72,2088,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,car_jeep_van,31.04,23753,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,two_wheeler,2.77,2120,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,taxi,41.92,32079,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,auto,5.69,4354,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,shared_auto,10.14,7759,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,bus,1.7,1301,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,goods_vehicle,3.78,2893,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB2,Rajiv Chowk - Gurugram,slow_vehicle,2.96,2265,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,car_jeep_van,32.93,16641,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,two_wheeler,2.71,1369,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,taxi,37.27,18834,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,auto,1.94,980,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,shared_auto,3.57,1804,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,bus,0.97,490,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,goods_vehicle,11.55,5837,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB3,Hero Honda Chowk - Kadipur Chowk,slow_vehicle,9.06,4578,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,car_jeep_van,19.76,7659,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,two_wheeler,1.4,543,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,taxi,47.87,18554,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,auto,2.3,891,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,shared_auto,9.94,3853,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,bus,0.96,372,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,goods_vehicle,5.76,2232,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB4,Basai Chowk - Gurugram,slow_vehicle,12.01,4655,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,car_jeep_van,19.35,14547,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,two_wheeler,2.56,1925,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,taxi,51.01,38348,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,auto,5.48,4120,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,shared_auto,10.0,7518,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,bus,1.43,1075,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,goods_vehicle,4.31,3240,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB5,Railway Station - Gurugram,slow_vehicle,5.86,4405,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,car_jeep_van,20.71,14126,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,two_wheeler,2.94,2005,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,taxi,49.64,33857,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,auto,8.44,5757,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,shared_auto,7.73,5272,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,bus,1.26,859,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,goods_vehicle,1.63,1112,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,slow_vehicle,7.65,5218,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,car_jeep_van,30.13,21913,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,two_wheeler,5.0,3636,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,taxi,39.7,28873,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,auto,7.08,5149,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,shared_auto,5.8,4218,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,bus,1.97,1433,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,goods_vehicle,5.35,3891,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB7,CRPF Camp Chowk - Sector 5 Chowk,slow_vehicle,4.97,3614,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,car_jeep_van,24.92,11902,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,two_wheeler,1.95,931,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,taxi,49.74,23756,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,auto,2.55,1218,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,shared_auto,7.09,3386,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,bus,1.54,735,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,goods_vehicle,5.2,2484,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
+MB8,Pataudi Road - Kadipur Chowk,slow_vehicle,7.01,3348,total_vehicles × source composition percentage; rounded by largest-remainder method,False,"RITES Primary Surveys, 2018",Table 2.7,2-6
