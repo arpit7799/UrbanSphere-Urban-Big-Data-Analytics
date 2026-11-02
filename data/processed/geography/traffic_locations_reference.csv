@@ -1,0 +1,16 @@
+location_id,location_name,location_type,mapped_sector_id,sector_id,sector_name,administrative_zone,latitude,longitude,nearest_transit_corridor,data_status
+MB1,Subhash Chowk - Rajiv Chowk,mid_block,SEC_038,SEC_038,Sector 38,Zone 2 (Central Gurgaon & MG Road),28.4632,77.0481,Sohna Road / SPR,derived_spatial_reference
+MB2,Rajiv Chowk - Gurugram,mid_block,SEC_015,SEC_015,Sector 15,Zone 1 (Old Gurgaon & Northern Fringe),28.4723,77.0414,Sohna Road / SPR,derived_spatial_reference
+MB3,Hero Honda Chowk - Kadipur Chowk,mid_block,SEC_010,SEC_010,Sector 10,Zone 1 (Old Gurgaon & Northern Fringe),28.479,77.0399,Sohna Road / SPR,derived_spatial_reference
+MB4,Basai Chowk - Gurugram,mid_block,SEC_009,SEC_009,Sector 9,Zone 1 (Old Gurgaon & Northern Fringe),28.485,77.0032,Sohna Road / SPR,derived_spatial_reference
+MB5,Railway Station - Gurugram,mid_block,SEC_004,SEC_004,Sector 4,Zone 1 (Old Gurgaon & Northern Fringe),28.4592,77.0243,Sohna Road / SPR,derived_spatial_reference
+MB6,India Post Office - Bhagwan Vishwakarma Chowk,mid_block,SEC_014,SEC_014,Sector 14,Zone 1 (Old Gurgaon & Northern Fringe),28.4586,77.0258,Sohna Road / SPR,derived_spatial_reference
+MB7,CRPF Camp Chowk - Sector 5 Chowk,mid_block,SEC_005,SEC_005,Sector 5,Zone 1 (Old Gurgaon & Northern Fringe),28.4919,77.0487,Sohna Road / SPR,derived_spatial_reference
+MB8,Pataudi Road - Kadipur Chowk,mid_block,SEC_010,SEC_010,Sector 10,Zone 1 (Old Gurgaon & Northern Fringe),28.479,77.0399,Sohna Road / SPR,derived_spatial_reference
+INT1,Huda Chowk,intersection,SEC_029,SEC_029,Sector 29,Zone 2 (Central Gurgaon & MG Road),28.4567,77.06,Sohna Road / SPR,derived_spatial_reference
+INT2,Subhash Chowk,intersection,SEC_038,SEC_038,Sector 38,Zone 2 (Central Gurgaon & MG Road),28.4632,77.0481,Sohna Road / SPR,derived_spatial_reference
+INT3,Hero Honda Chowk,intersection,SEC_033,SEC_033,Sector 33,Zone 2 (Central Gurgaon & MG Road),28.4643,77.066,NH-48,derived_spatial_reference
+INT4,Bhagwan Vishwakarma Chowk,intersection,SEC_014,SEC_014,Sector 14,Zone 1 (Old Gurgaon & Northern Fringe),28.4586,77.0258,Sohna Road / SPR,derived_spatial_reference
+OC1,Kherki Daula Toll Plaza (NH-48),outer_cordon,SEC_080,SEC_080,Sector 80,Zone 5 (New Gurgaon / NH-48 Corridor),28.3742,76.9769,Sohna Road / SPR,derived_spatial_reference
+OC2,Mehrauli - Gurugram Road (Near Arjangarh metro station),outer_cordon,SEC_026,SEC_026,Sector 26,Zone 2 (Central Gurgaon & MG Road),28.4436,77.0572,Sohna Road / SPR,derived_spatial_reference
+OC3,Kapasera MCD Toll Plaza (Old Delhi-Gurgaon Road),outer_cordon,SEC_021,SEC_021,Sector 21,Zone 1 (Old Gurgaon & Northern Fringe),28.4683,77.042,Sohna Road / SPR,derived_spatial_reference

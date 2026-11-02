@@ -1,0 +1,7 @@
+#vehicle_category	total_observations,mean_share_pct,min_share_pct,max_share_pct,observed_locations,derived_locations
+auto_rickshaw	315648,9.14,0.00,57.14,315648,0
+bus	315648,3.48,0.00,50.00,315648,0
+car	315648,36.21,0.00,100.00,315648,0
+other_vehicle	315648,5.95,0.00,60.00,315648,0
+truck	315648,7.07,0.00,45.45,315648,0
+two_wheeler	315648,38.16,0.00,100.00,315648,0

@@ -1,139 +1,124 @@
-sector_id,sector_name,administrative_zone,primary_land_use,latitude,longitude,elevation_meters,pincode,civic_authority,nearest_transit_corridor,data_status,source_domain,source_year,generation_method,source_record_id
-SEC_001,Sector 1,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_002,Sector 2,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_003,Sector 3,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_004,Sector 4,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_005,Sector 5,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_006,Sector 6,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_007,Sector 7,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_008,Sector 8,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_009,Sector 9,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_010,Sector 10,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_011,Sector 11,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_012,Sector 12,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_013,Sector 13,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_014,Sector 14,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_015,Sector 15,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_016,Sector 16,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_017,Sector 17,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_018,Sector 18,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_019,Sector 19,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_020,Sector 20,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_021,Sector 21,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_022,Sector 22,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_023,Sector 23,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_024,Sector 24,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_025,Sector 25,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_026,Sector 26,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_027,Sector 27,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_028,Sector 28,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_029,Sector 29,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_030,Sector 30,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_031,Sector 31,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_032,Sector 32,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_033,Sector 33,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_034,Sector 34,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_035,Sector 35,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_036,Sector 36,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_037,Sector 37,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_038,Sector 38,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_039,Sector 39,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_040,Sector 40,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_041,Sector 41,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_042,Sector 42,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_043,Sector 43,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_044,Sector 44,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_045,Sector 45,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_046,Sector 46,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_047,Sector 47,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_048,Sector 48,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_049,Sector 49,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_050,Sector 50,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_051,Sector 51,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_052,Sector 52,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_053,Sector 53,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_054,Sector 54,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_055,Sector 55,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_056,Sector 56,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_057,Sector 57,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_058,Sector 58,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_059,Sector 59,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_060,Sector 60,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_061,Sector 61,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_062,Sector 62,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_063,Sector 63,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_064,Sector 64,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_065,Sector 65,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_066,Sector 66,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_067,Sector 67,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_068,Sector 68,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_069,Sector 69,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_070,Sector 70,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_071,Sector 71,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_072,Sector 72,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_073,Sector 73,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_074,Sector 74,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_075,Sector 75,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_076,Sector 76,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_077,Sector 77,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_078,Sector 78,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_079,Sector 79,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_080,Sector 80,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_081,Sector 81,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_082,Sector 82,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_083,Sector 83,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_084,Sector 84,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_085,Sector 85,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_086,Sector 86,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_087,Sector 87,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_088,Sector 88,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_089,Sector 89,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_090,Sector 90,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_091,Sector 91,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_092,Sector 92,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_093,Sector 93,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_094,Sector 94,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_095,Sector 95,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_096,Sector 96,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_097,Sector 97,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_098,Sector 98,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_099,Sector 99,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_100,Sector 100,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_101,Sector 101,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_102,Sector 102,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_103,Sector 103,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_104,Sector 104,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_105,Sector 105,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_106,Sector 106,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_107,Sector 107,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_108,Sector 108,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_109,Sector 109,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_110,Sector 110,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_111,Sector 111,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_112,Sector 112,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_113,Sector 113,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_114,Sector 114,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-SEC_115,Sector 115,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-IMT_SEC_01,IMT Manesar Sector 1,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-IMT_SEC_02,IMT Manesar Sector 2,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-IMT_SEC_03,IMT Manesar Sector 3,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-IMT_SEC_04,IMT Manesar Sector 4,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-IMT_SEC_05,IMT Manesar Sector 5,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-GEO_GWAL_01,Gwal Pahari Tech Zone,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-GEO_BADSH_01,Badshahpur Drainage Basin,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-GEO_CYBER_01,DLF Cyber City Hub,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_000,DLF Phase 1,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_001,DLF Phase 2,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_002,DLF Phase 3,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_003,DLF Phase 4,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_004,DLF Phase 5,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_005,Udyog Vihar Phase 1,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_006,Udyog Vihar Phase 2,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_007,Udyog Vihar Phase 3,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_008,Cyber City,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_009,Golf Course Road,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_010,IMT Manesar,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_011,Sushant Lok Phase 1,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_012,Palam Vihar,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_013,South City 1,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
-LOC_014,South City 2,,,,,,,MCG / GMDA,,reference,geography,,gmda_master_plan_and_official_localities,
+sector_id,sector_name,administrative_zone,primary_land_use,latitude,longitude,elevation_meters,pincode,civic_authority,nearest_transit_corridor,data_status,source_domain,source_year,generation_method
+SEC_001,Sector 1,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4675,77.0072,241,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_002,Sector 2,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4643,77.0135,234,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_003,Sector 3,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4508,77.0327,231,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_004,Sector 4,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4592,77.0243,242,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_005,Sector 5,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4919,77.0487,241,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_006,Sector 6,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.491,77.0167,236,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_007,Sector 7,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4696,77.0215,239,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_008,Sector 8,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4603,77.0148,240,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_009,Sector 9,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.485,77.0032,224,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_010,Sector 10,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.479,77.0399,238,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_011,Sector 11,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4712,77.0129,237,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_012,Sector 12,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4972,77.0222,225,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_013,Sector 13,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4805,77.0036,234,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_014,Sector 14,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4586,77.0258,234,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_015,Sector 15,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4723,77.0414,230,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_016,Sector 16,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4578,77.0232,241,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_017,Sector 17,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.494,77.0156,227,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_018,Sector 18,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4742,77.0328,241,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_019,Sector 19,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4807,77.0418,236,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_020,Sector 20,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4551,77.0446,226,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_021,Sector 21,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4683,77.042,242,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_022,Sector 22,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4655,77.0192,231,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_023,Sector 23,Zone 1 (Old Gurgaon & Northern Fringe),Residential / Mixed Old Urban,28.4749,77.0375,238,122001,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_024,Sector 24,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4796,77.0802,229,122002,MCG / GMDA,NH-48,reference,geography,2024,gmda_gis_sectors
+SEC_025,Sector 25,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4543,77.0709,236,122002,MCG / GMDA,NH-48,reference,geography,2024,gmda_gis_sectors
+SEC_026,Sector 26,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4436,77.0572,226,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_027,Sector 27,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4603,77.0484,234,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_028,Sector 28,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4587,77.0602,235,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_029,Sector 29,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4567,77.06,235,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_030,Sector 30,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4423,77.0616,226,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_031,Sector 31,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4415,77.0417,225,122002,MCG / GMDA,NH-48,reference,geography,2024,gmda_gis_sectors
+SEC_032,Sector 32,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4574,77.0683,238,122002,MCG / GMDA,NH-48,reference,geography,2024,gmda_gis_sectors
+SEC_033,Sector 33,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4643,77.066,223,122002,MCG / GMDA,NH-48,reference,geography,2024,gmda_gis_sectors
+SEC_034,Sector 34,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4519,77.0746,228,122002,MCG / GMDA,NH-48,reference,geography,2024,gmda_gis_sectors
+SEC_035,Sector 35,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4638,77.0702,229,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_036,Sector 36,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4629,77.0457,237,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_037,Sector 37,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4409,77.0418,240,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_038,Sector 38,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4632,77.0481,234,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_039,Sector 39,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4548,77.0535,239,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_040,Sector 40,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4591,77.0547,241,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_041,Sector 41,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4466,77.0471,224,122002,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_042,Sector 42,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.445,77.0526,236,122002,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_043,Sector 43,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4669,77.0782,234,122002,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_044,Sector 44,Zone 2 (Central Gurgaon & MG Road),Commercial / High-Density Urban,28.4597,77.0616,240,122002,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_045,Sector 45,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4287,77.1196,229,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_046,Sector 46,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4213,77.0878,233,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_047,Sector 47,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.452,77.0839,234,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_048,Sector 48,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4237,77.1089,232,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_049,Sector 49,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4443,77.1178,230,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_050,Sector 50,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4525,77.0984,242,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_051,Sector 51,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4242,77.1199,230,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_052,Sector 52,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.445,77.1234,242,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_053,Sector 53,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4335,77.0922,235,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_054,Sector 54,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4432,77.102,240,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_055,Sector 55,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4173,77.105,234,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_056,Sector 56,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4166,77.0756,235,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_057,Sector 57,Zone 3 (DLF Phases & Golf Course Road),Upscale Residential & Corporate Corridor,28.4197,77.1134,242,122011,MCG / GMDA,Golf Course Road,reference,geography,2024,gmda_gis_sectors
+SEC_058,Sector 58,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3889,77.0579,234,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_059,Sector 59,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4024,77.049,238,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_060,Sector 60,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4285,77.0496,237,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_061,Sector 61,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4104,77.0439,223,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_062,Sector 62,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3878,77.0328,235,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_063,Sector 63,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3838,77.0427,222,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_064,Sector 64,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4183,77.05,233,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_065,Sector 65,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4086,77.066,241,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_066,Sector 66,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4196,77.0302,224,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_067,Sector 67,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3961,77.0551,235,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_068,Sector 68,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4153,77.0163,225,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_069,Sector 69,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4132,77.0323,229,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_070,Sector 70,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3996,77.0578,236,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_071,Sector 71,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3853,77.0307,235,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_072,Sector 72,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.4288,77.0647,227,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_073,Sector 73,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3833,77.0444,230,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_074,Sector 74,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3892,77.0491,225,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_075,Sector 75,Zone 4 (Southern Peripheral Road / Sohna Rd),Developing Residential & Commercial Hub,28.3976,77.0577,236,122018,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_076,Sector 76,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4004,76.9858,224,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_077,Sector 77,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4045,76.937,223,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_078,Sector 78,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3953,76.9314,230,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_079,Sector 79,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3705,76.9661,227,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_080,Sector 80,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3742,76.9769,229,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_081,Sector 81,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3922,76.9525,222,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_082,Sector 82,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.393,76.9699,239,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_083,Sector 83,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4082,76.9348,224,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_084,Sector 84,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3722,76.9372,230,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_085,Sector 85,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.381,76.9689,222,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_086,Sector 86,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4129,76.9707,240,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_087,Sector 87,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4176,76.9716,224,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_088,Sector 88,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3811,76.9467,229,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_089,Sector 89,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3985,76.971,223,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_090,Sector 90,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.4005,76.9336,237,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_091,Sector 91,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.372,76.9534,229,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_092,Sector 92,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3985,76.9357,239,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_093,Sector 93,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3892,76.9538,226,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_094,Sector 94,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.409,76.9305,223,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_095,Sector 95,Zone 5 (New Gurgaon / NH-48 Corridor),Integrated Townships & High-Rise Residential,28.3935,76.9881,222,122004,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_096,Sector 96,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4537,76.9829,236,122006,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_097,Sector 97,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5038,76.9746,229,122006,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_098,Sector 98,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4771,76.9659,240,122006,MCG / GMDA,Sohna Road / SPR,reference,geography,2024,gmda_gis_sectors
+SEC_099,Sector 99,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4728,76.9458,226,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_100,Sector 100,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5076,76.9657,227,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_101,Sector 101,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4686,76.9405,233,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_102,Sector 102,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4935,76.9612,238,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_103,Sector 103,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4946,76.9761,235,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_104,Sector 104,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4962,76.9716,229,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_105,Sector 105,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4575,76.9643,232,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_106,Sector 106,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5069,76.9493,236,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_107,Sector 107,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4644,76.9974,233,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_108,Sector 108,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.476,76.9608,225,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_109,Sector 109,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4929,76.9782,239,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_110,Sector 110,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4858,76.9502,234,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_111,Sector 111,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.5027,76.9994,235,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_112,Sector 112,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4674,76.9739,231,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_113,Sector 113,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4807,76.9447,225,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_114,Sector 114,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4814,76.9879,225,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+SEC_115,Sector 115,Zone 6 (Dwarka Expressway Sectors 99-115),Expressway Residential & Transit Growth Corridor,28.4599,76.9856,235,122006,MCG / GMDA,Dwarka Expressway,reference,geography,2024,gmda_gis_sectors
+IMT_SEC_01,IMT Manesar Sector 1,Manesar Industrial Belt,Industrial & Manufacturing,28.3612,76.9241,240,122051,HSIIDC,NH-48,reference,geography,2024,gmda_gis_sectors
+IMT_SEC_02,IMT Manesar Sector 2,Manesar Industrial Belt,Heavy Industrial / Logistics,28.358,76.931,242,122051,HSIIDC,NH-48,reference,geography,2024,gmda_gis_sectors
+IMT_SEC_03,IMT Manesar Sector 3,Manesar Industrial Belt,Auto Manufacturing Zone,28.3541,76.9367,245,122051,HSIIDC,NH-48,reference,geography,2024,gmda_gis_sectors
+IMT_SEC_04,IMT Manesar Sector 4,Manesar Industrial Belt,Tech & Pharma Park,28.349,76.942,246,122051,HSIIDC,NH-48,reference,geography,2024,gmda_gis_sectors
+IMT_SEC_05,IMT Manesar Sector 5,Manesar Industrial Belt,R&D / Ancillary Sector,28.342,76.948,248,122051,HSIIDC,NH-48,reference,geography,2024,gmda_gis_sectors
+GEO_GWAL_01,Gwal Pahari Tech Zone,Aravalli Foothills,Institutional & Ecological,28.4288,77.1511,258,122003,GMDA / Forest Dept,Faridabad-Gurgaon Rd,reference,geography,2024,gmda_gis_sectors
+GEO_BADSH_01,Badshahpur Drainage Basin,Southern Plains,Natural Waterway / Drainage,28.3846,77.0494,235,122101,GMDA / Irrigation Dept,Sohna Road,reference,geography,2024,gmda_gis_sectors
+GEO_CYBER_01,DLF Cyber City Hub,Cyber City Zone,Prime IT SEZ & Commercial,28.4952,77.0894,229,122008,DLF / GMDA,NH-48 / Rapid Metro,reference,geography,2024,gmda_gis_sectors

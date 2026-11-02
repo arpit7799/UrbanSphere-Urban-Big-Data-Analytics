@@ -1,0 +1,22 @@
+{
+  "name": "urbansphere-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "UrbanSphere — Urban Big Data Analytics Platform Frontend Dashboard",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js",
+    "build": "echo 'Frontend is a zero-dependency static SPA, ready for production serving'"
+  },
+  "keywords": [
+    "urbansphere",
+    "big-data",
+    "smart-city",
+    "analytics",
+    "fastapi",
+    "spark",
+    "hadoop"
+  ],
+  "author": "Arpit Pandey",
+  "license": "MIT"
+}

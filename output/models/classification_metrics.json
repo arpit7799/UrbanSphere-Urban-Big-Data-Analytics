@@ -1,0 +1,58 @@
+{
+  "model_type": "RandomForestClassifier(n_estimators=100, max_depth=8)",
+  "training_records": 8760,
+  "test_records": 4392,
+  "total_records": 13152,
+  "target": "daily_aqi_category",
+  "dummy_baseline_accuracy": 0.4061,
+  "logistic_regression_accuracy": 0.8231,
+  "stratified_5fold_accuracy": 0.8507,
+  "stratified_5fold_macro_f1": 0.6365,
+  "timeseries_split_accuracy": 0.765,
+  "timeseries_split_macro_f1": 0.4598,
+  "holdout_test_accuracy": 0.8527,
+  "holdout_test_macro_f1": 0.638,
+  "top_features": [
+    {
+      "feature": "temp_mean_c",
+      "importance": 0.23474215733122017
+    },
+    {
+      "feature": "temp_min_c",
+      "importance": 0.19505291668470584
+    },
+    {
+      "feature": "temp_max_c",
+      "importance": 0.1837321994041191
+    },
+    {
+      "feature": "humidity_mean_pct",
+      "importance": 0.14095397330427809
+    },
+    {
+      "feature": "month",
+      "importance": 0.11282768368099964
+    },
+    {
+      "feature": "wind_speed_mean_kmh",
+      "importance": 0.04362029945611542
+    },
+    {
+      "feature": "surface_pressure_mean_hpa",
+      "importance": 0.0430858065558016
+    },
+    {
+      "feature": "precipitation_total_mm",
+      "importance": 0.027641573140292367
+    },
+    {
+      "feature": "wind_speed_max_kmh",
+      "importance": 0.009554647947141334
+    },
+    {
+      "feature": "temp_diurnal_range_c",
+      "importance": 0.008788742495326483
+    }
+  ],
+  "scientific_disclaimer": "Exploratory association: meteorological variables account for ~55-75% of variance. Remaining variance is driven by non-weather emissions and biomass burning."
+}

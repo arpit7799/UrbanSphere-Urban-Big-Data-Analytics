@@ -1,11 +1,11 @@
-administrative_zone,num_sectors,center_latitude,center_longitude,avg_elevation_meters,data_status,source_domain,source_dataset,generation_method
-Aravalli Foothills,1,28.4288,77.1511,258.0,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Cyber City Zone,1,28.4952,77.0894,229.0,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Manesar Industrial Belt,5,28.35286,76.93636,244.2,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Southern Plains,1,28.3846,77.0494,235.0,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Zone 1 (Old Gurgaon & Northern Fringe),23,28.47256086956522,77.02543913043478,235.1304347826087,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Zone 2 (Central Gurgaon & MG Road),21,28.45588095238095,77.05917142857143,232.8095238095238,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Zone 3 (DLF Phases & Golf Course Road),13,28.43246153846154,77.10368461538461,235.23076923076923,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Zone 4 (Southern Peripheral Road / Sohna Rd),18,28.403149999999997,77.04612222222221,231.38888888888889,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Zone 5 (New Gurgaon / NH-48 Corridor),20,28.393215,76.95578,228.1,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
-Zone 6 (Dwarka Expressway Sectors 99-115),20,28.482175,76.9688,232.15,derived,geography,geography_cleaned.csv,Spatial aggregation of sectors by administrative_zone
+administrative_zone,sector_count,min_latitude,max_latitude,min_longitude,max_longitude,mean_elevation,data_status
+Aravalli Foothills,1,28.4288,28.4288,77.1511,77.1511,258.0,derived_reference
+Cyber City Zone,1,28.4952,28.4952,77.0894,77.0894,229.0,derived_reference
+Manesar Industrial Belt,5,28.342,28.3612,76.9241,76.948,244.2,derived_reference
+Southern Plains,1,28.3846,28.3846,77.0494,77.0494,235.0,derived_reference
+Zone 1 (Old Gurgaon & Northern Fringe),23,28.4508,28.4972,77.0032,77.0487,235.1304347826087,derived_reference
+Zone 2 (Central Gurgaon & MG Road),21,28.4409,28.4796,77.0417,77.0802,232.8095238095238,derived_reference
+Zone 3 (DLF Phases & Golf Course Road),13,28.4166,28.4525,77.0756,77.1234,235.23076923076923,derived_reference
+Zone 4 (Southern Peripheral Road / Sohna Rd),18,28.3833,28.4288,77.0163,77.066,231.38888888888889,derived_reference
+Zone 5 (New Gurgaon / NH-48 Corridor),20,28.3705,28.4176,76.9305,76.9881,228.1,derived_reference
+Zone 6 (Dwarka Expressway Sectors 99-115),20,28.4537,28.5076,76.9405,76.9994,232.15,derived_reference

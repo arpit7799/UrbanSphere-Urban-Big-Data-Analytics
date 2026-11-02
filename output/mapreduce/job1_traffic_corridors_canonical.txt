@@ -1,0 +1,6 @@
+#location_type	location_count,total_vehicles,total_pcu,avg_vehicles_per_loc,avg_pcu_per_loc,pcu_factor,avg_morning_peak_pcu,avg_evening_peak_pcu
+arterial	131520,37039492.0,39579461.4,281.6,300.9,1.07,411.4,406.4
+highway_arterial	26304,12391507.0,13462171.6,471.1,511.8,1.09,702.8,694.4
+junction_arterial	26304,12404053.0,13473730.3,471.6,512.2,1.09,704.2,694.5
+urban	105216,10393159.0,10480952.4,98.8,99.6,1.01,134.6,130.9
+urban_arterial	26304,5616479.0,5663811.0,213.5,215.3,1.01,294.4,290.3

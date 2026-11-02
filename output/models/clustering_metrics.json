@@ -1,0 +1,76 @@
+{
+  "model_type": "KMeans(n_clusters=3)",
+  "total_days_analyzed": 13152,
+  "optimal_k": 3,
+  "silhouette_score": 0.5443,
+  "cluster_evaluations": {
+    "2": {
+      "inertia": 17552.34,
+      "silhouette": 0.6675
+    },
+    "3": {
+      "inertia": 10920.73,
+      "silhouette": 0.5443
+    },
+    "4": {
+      "inertia": 7377.96,
+      "silhouette": 0.5077
+    },
+    "5": {
+      "inertia": 6477.98,
+      "silhouette": 0.4125
+    },
+    "6": {
+      "inertia": 5777.82,
+      "silhouette": 0.3196
+    }
+  },
+  "pca_variance_explained": [
+    0.8957,
+    0.0858
+  ],
+  "regime_profiles": [
+    {
+      "pollution_cluster": 0,
+      "days": 3615,
+      "avg_aqi": 193.13416320885202,
+      "avg_pm25": 70.23828688335638,
+      "avg_pm10": 142.47455025357306,
+      "avg_no2": 39.46173236514523,
+      "avg_so2": 10.527523397879207,
+      "avg_co": 0.6800078031350854,
+      "avg_o3": 24.768948132780082,
+      "avg_temp": 32.5789560857538,
+      "avg_wind": 11.521435569386815,
+      "regime_name": "Low_Pollution_Monsoon_Regime"
+    },
+    {
+      "pollution_cluster": 1,
+      "days": 5439,
+      "avg_aqi": 358.40871483728625,
+      "avg_pm25": 195.5895886958387,
+      "avg_pm10": 373.70668237114666,
+      "avg_no2": 68.49586681068824,
+      "avg_so2": 17.928071489857206,
+      "avg_co": 1.032862712201998,
+      "avg_o3": 18.49314120242692,
+      "avg_temp": 19.21735873628731,
+      "avg_wind": 11.306239734632591,
+      "regime_name": "Severe_Inversion_Winter_Smog_Regime"
+    },
+    {
+      "pollution_cluster": 2,
+      "days": 4098,
+      "avg_aqi": 258.24133723767693,
+      "avg_pm25": 119.67826805758907,
+      "avg_pm10": 233.63337868065722,
+      "avg_no2": 48.4937651496665,
+      "avg_so2": 12.863631954612005,
+      "avg_co": 0.8208923051895234,
+      "avg_o3": 24.84233986090776,
+      "avg_temp": 32.3323941556857,
+      "avg_wind": 9.736508561086708,
+      "regime_name": "Moderate_Photochemical_Regime"
+    }
+  ]
+}

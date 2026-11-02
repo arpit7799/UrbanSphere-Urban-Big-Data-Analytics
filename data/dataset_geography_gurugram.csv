@@ -1,0 +1,13 @@
+location_id,location_name,latitude,longitude,locality_type,urban_function,representative_corridor,district,state,country,geographic_scope
+GG001,Cyber City,28.4946,77.088,Commercial / business district,"Office campuses, corporate offices, commercial activity",NH 48 / Cyber City access roads,Gurugram,Haryana,India,Representative locality point
+GG002,IFFCO Chowk,28.4722,77.072,Transport interchange / commercial,"Major junction, metro access, nearby commercial activity",NH 48 / MG Road connection,Gurugram,Haryana,India,Representative locality point
+GG003,Millennium City Centre,28.4595,77.0726,Transport interchange / mixed-use,Metro interchange and surrounding mixed-use urban area,MG Road / Millennium City Centre access roads,Gurugram,Haryana,India,Representative locality point
+GG004,Sector 29,28.4696,77.0648,Commercial / leisure,"Restaurants, hospitality, offices and leisure activity",Sector 29 internal roads / NH 48 access,Gurugram,Haryana,India,Representative locality point
+GG005,Udyog Vihar,28.5045,77.085,Industrial / commercial,"Industrial estates, offices and business activity",Udyog Vihar internal roads / NH 48 access,Gurugram,Haryana,India,Representative locality point
+GG006,Golf Course Road,28.4239,77.105,Residential / commercial corridor,"Residential communities, offices and retail",Golf Course Road,Gurugram,Haryana,India,Representative locality point
+GG007,Sector 56,28.4246,77.099,Residential / mixed-use,Residential neighbourhoods and local commercial activity,Sector 56 roads / Golf Course Road connection,Gurugram,Haryana,India,Representative locality point
+GG008,Sohna Road,28.411,77.043,Mixed-use corridor,"Residential developments, offices and commercial activity",Sohna Road,Gurugram,Haryana,India,Representative locality point
+GG009,Old Gurgaon,28.4597,77.0266,Established urban / mixed-use,"Established markets, residential areas and local commerce",Old Gurgaon road network,Gurugram,Haryana,India,Representative locality point
+GG010,Palam Vihar,28.515,77.033,Residential,Residential neighbourhoods and local services,Palam Vihar internal roads,Gurugram,Haryana,India,Representative locality point
+GG011,Manesar,28.3515,76.939,Industrial / mixed-use,"Industrial estates, logistics and surrounding urban activity",NH 48 / Manesar access roads,Gurugram,Haryana,India,Representative locality point
+GG012,Badshahpur,28.401,77.04,Residential / mixed-use,"Residential areas, local markets and nearby commercial activity",Badshahpur roads / Sohna Road connection,Gurugram,Haryana,India,Representative locality point

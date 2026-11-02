@@ -1,0 +1,21 @@
+{
+  "name": "urbansphere",
+  "version": "1.0.0",
+  "description": "UrbanSphere — A Big Data Analytics Platform for Urban Systems",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm start",
+    "backend": "./backend/run_backend.sh 8000 127.0.0.1",
+    "test": "./UrbanSphere_env/bin/python tests/test_frontend_backend_integration.py"
+  },
+  "keywords": [
+    "urbansphere",
+    "big-data",
+    "fastapi",
+    "pyspark",
+    "hadoop",
+    "machine-learning"
+  ],
+  "author": "Arpit Pandey",
+  "license": "MIT"
+}

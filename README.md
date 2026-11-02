@@ -39,7 +39,7 @@
 
 ## ✨ Overview
 
-> **UrbanSphere** is a Gurugram-focused Urban Big Data Analytics platform that brings together heterogeneous datasets from **mobility, weather, air quality, events, and geography** and processes them through a distributed analytics pipeline.
+> **UrbanSphere** is a Gurugram-focused Urban Big Data Analytics platform that brings together heterogeneous datasets from **mobility, weather, air quality, and geography** and processes them through a distributed analytics pipeline.
 
 The project is designed around one central idea:
 
@@ -67,7 +67,7 @@ Rather than building a dashboard around a single dataset or focusing only on pre
 
 ## 🎯 Problem Statement
 
-Modern cities continuously generate data through transportation systems, environmental monitoring, weather services, public events, and geographic information systems.
+Modern cities continuously generate data through transportation systems, environmental monitoring, weather services, and geographic information systems.
 
 However, these datasets are often:
 
@@ -79,7 +79,7 @@ However, these datasets are often:
 
 ### The Challenge
 
-> **How can heterogeneous mobility, environmental, weather, event, and geographical data be integrated and processed at scale to discover meaningful temporal and spatial relationships within Gurugram?**
+> **How can heterogeneous mobility, environmental, weather, and geographical data be integrated and processed at scale to discover meaningful temporal and spatial relationships within Gurugram?**
 
 UrbanSphere addresses this challenge by creating an end-to-end **Big Data processing and analytics pipeline**.
 
@@ -91,7 +91,7 @@ UrbanSphere addresses this challenge by creating an end-to-end **Big Data proces
 
 ### 🔬 Central Research Question
 
-**How can heterogeneous mobility, environmental, weather, event, and geographical data be processed at scale to discover meaningful temporal and spatial relationships in Gurugram's urban environment?**
+**How can heterogeneous mobility, environmental, weather, and geographical data be processed at scale to discover meaningful temporal and spatial relationships in Gurugram's urban environment?**
 
 </div>
 
@@ -99,13 +99,12 @@ UrbanSphere addresses this challenge by creating an end-to-end **Big Data proces
 
 - 🌦️ How does weather relate to mobility?
 - 🌫️ Are mobility patterns associated with air-quality conditions?
-- 🎫 Do public events coincide with unusual mobility patterns?
 - 📍 Which geographical areas show similar urban behavior?
 - 🚨 What constitutes unusual urban activity?
 - 🔗 Which combinations of urban conditions frequently occur?
 - ⚡ How effectively can distributed technologies process integrated urban data?
 
-> **Important:** Events are treated as contextual variables. UrbanSphere is **not** primarily trying to predict whether an event occurred.
+> **Important Data Scope Note:** UrbanSphere focuses on the four core canonical domains: Mobility, Weather, Air Quality, and Geography. The hourly datasets are calibrated synthetic benchmarks across 2022–2024, and geography provides approximate locality reference points. Contextual municipal event logs are formally reserved for future work.
 
 ---
 
@@ -119,9 +118,9 @@ Gurugram is a strong case study for urban analytics because of its combination o
 |:---:|:---:|:---:|
 | High urban movement | Major business zones | Major road networks |
 
-| 🌫️ Environmental Variation | 🌦️ Weather Variation | 🎫 Events |
+| 🌫️ Environmental Variation | 🌦️ Weather Variation | 🗺️ Geographic Diversity |
 |:---:|:---:|:---:|
-| Air-quality fluctuations | Seasonal changes | Public & commercial activity |
+| Air-quality fluctuations | Seasonal changes | Industrial, commercial & residential nodes |
 
 </div>
 
@@ -143,30 +142,28 @@ UrbanSphere is built around **heterogeneous data integration**.
         │                     │                     │
         └─────────────────────┼─────────────────────┘
                               │
-                    ┌─────────┴─────────┐
-                    ▼                   ▼
-              🎫 EVENTS            🗺️ GEOGRAPHY
-                    │                   │
-                    └─────────┬─────────┘
+                               │
+                               ▼
+                         🗺️ GEOGRAPHY
+                               │
                               ▼
                     🔗 DATA INTEGRATION
 ```
 
 ### 📦 Data Domains
 
-| Domain | Example Variables | Analytical Role |
-|:---:|---|---|
-| 🚗 **Mobility** | movement, traffic/activity, timestamp, location | Urban movement |
-| 🌦️ **Weather** | temperature, humidity, rainfall, wind | Environmental context |
-| 🌫️ **Air Quality** | PM2.5, PM10, NO₂, O₃, CO | Pollution analysis |
-| 🎫 **Events** | type, location, date/time | Contextual factor |
-| 🗺️ **Geography** | coordinates, wards, zones | Spatial analysis |
+| Domain | Canonical Dataset | Records & Shape | Analytical Role |
+|:---:|---|---|---|
+| 🚗 **Mobility** |  | 315,648 rows, 18 cols | Vehicle modal split, IRC-67 PCU, corridor speeds |
+| 🌦️ **Weather** |  | 315,648 rows, 15 cols | Temperature, humidity, pressure, wind, rain |
+| 🌫️ **Air Quality** |  | 315,648 rows, 14 cols | PM2.5, PM10, NO2, SO2, CO, O3, NAQI bands |
+| 🗺️ **Geography** |  | 12 localities, 11 cols | Reference centroids, urban typology, corridors |
 
 ---
 
 # 🔄 Data Integration
 
-The difficult part is not simply collecting five datasets.
+The primary engineering objective is making these four datasets analytically compatible.
 
 The difficult part is making them **analytically compatible**.
 
@@ -218,8 +215,6 @@ rainfall
 wind_speed
 pm25
 pm10
-event_indicator
-event_type
 ```
 
 The final schema will be determined by the actual datasets selected and validated during implementation.
@@ -234,7 +229,7 @@ The final schema will be determined by the actual datasets selected and validate
 ┌──────────────────────────────────────────────────────────┐
 │                    🌐 DATA SOURCES                       │
 │                                                          │
-│  🚗 Mobility │ 🌦️ Weather │ 🌫️ Air │ 🎫 Events │ 🗺️ GIS │
+│  🚗 Mobility │ 🌦️ Weather │ 🌫️ Air Quality │ 🗺️ Geography  │
 └───────────────────────────┬──────────────────────────────┘
                             │
                             ▼
@@ -294,6 +289,50 @@ The final schema will be determined by the actual datasets selected and validate
 
 ---
 
+# 📂 Authoritative Datasets & Canonical Architecture
+
+UrbanSphere is powered by **four authoritative canonical datasets** covering 12 representative urban nodes across Gurugram from **2022-01-01 00:00 through 2024-12-31 23:00**:
+
+| Dataset | Canonical Path | Records | Features | Scientific Domain |
+|:---|:---|---:|---:|:---|
+| **Weather & AQI** | `data/dataset_weather_gurugram_with_aqi.csv` | 315,648 | 15 | Hourly 2m temperature, humidity, surface pressure, wind, precipitation, and weather-derived AQI |
+| **Traffic** | `data/dataset_traffic_gurugram.csv` | 315,648 | 18 | Hourly vehicle count (sum of 6 modal classes), PCU, average speed, and congestion level |
+| **Air Quality** | `data/dataset_air_quality_gurugram.csv` | 315,648 | 14 | Hourly criteria pollutants (PM2.5, PM10, NO2, SO2, CO, O3) and pollutant-derived AQI |
+| **Geography** | `data/dataset_geography_gurugram.csv` | 12 | 11 | Representative centroid coordinates, locality type, urban function, and representative corridor |
+
+### 🚀 Unified Pipeline Execution
+
+```bash
+# 1. End-to-End Data Integration & Parquet Generation (1:1 lossless join)
+python3 data/build_integrated_analytical_dataset.py
+
+# 2. Exploratory Data Analysis (EDA) Notebook & Artifacts
+python3 notebooks/build_and_run_eda.py
+
+# 3. Hadoop MapReduce Jobs (Local POSIX streaming & verification)
+bash hadoop/mapreduce/run_mapreduce_local.sh
+python3 hadoop/mapreduce/verify_mapreduce_outputs.py
+
+# 4. PySpark SQL Analytical Engine & Correlations
+python3 spark/sql/pyspark_sql_analytics.py
+python3 spark/analytics/correlation_analysis.py
+
+# 5. Machine Learning Pipelines (Classification, Clustering, Anomaly Detection)
+python3 analytics/classification/train_aqi_classifier.py
+python3 analytics/clustering/cluster_pollution_profiles.py
+python3 analytics/anomaly_detection/detect_pollution_spikes.py
+python3 analytics/statistics/correlations.py
+
+# 6. Run Complete Test Suite (33 Unit and Integration Tests)
+python3 -m unittest discover -s tests -p "test_*.py"
+python3 -m unittest hadoop/mapreduce/test_mapreduce_jobs.py
+
+# 7. Start FastAPI Backend Server
+uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+---
+
 # ⚙️ How It Works
 
 ## 01 · 📥 Data Acquisition
@@ -323,7 +362,6 @@ Raw and processed data is organized within HDFS.
 │   ├── mobility/
 │   ├── weather/
 │   ├── air_quality/
-│   ├── events/
 │   └── geography/
 │
 ├── processed/
@@ -456,7 +494,6 @@ Different datasets operate at different resolutions.
 🚗 Mobility       → potentially minute-level
 🌦️ Weather        → hourly
 🌫️ Air Quality    → hourly / sensor-dependent
-🎫 Events         → event-based
 🗺️ Geography      → static
 ```
 
@@ -548,7 +585,6 @@ Potential applications include:
 - Unusual mobility
 - Abnormal pollution
 - Unexpected area behavior
-- Event-associated deviations
 
 ---
 
@@ -591,8 +627,6 @@ UrbanSphere can apply:
      │
      └──────────────► 🌫️ Air Quality
 
-🎫 Events ─────────► 🚗 Mobility
-
 🚗 Mobility ────────► 🌫️ Air Quality
 ```
 
@@ -610,7 +644,7 @@ The final application is planned as an interactive analytics interface.
 ║             GURUGRAM URBAN INTELLIGENCE                  ║
 ╠══════════════════════════════════════════════════════════╣
 ║                                                          ║
-║  🚗 Mobility    🌦️ Weather    🌫️ Air Quality    🎫 Events ║
+║  🚗 Mobility    🌦️ Weather    🌫️ Air Quality    🗺️ Geography  ║
 ║                                                          ║
 ╠══════════════════════════════════════════════════════════╣
 ║                                                          ║
@@ -636,7 +670,6 @@ The final application is planned as an interactive analytics interface.
 | 🌦️ Weather Panel | Environmental context |
 | 🌫️ Air Quality Panel | Pollution patterns |
 | 🚗 Mobility Panel | Transportation behavior |
-| 🎫 Event Context | Event comparisons |
 
 ---
 
@@ -683,8 +716,7 @@ UrbanSphere/
 │   │   ├── mobility/
 │   │   ├── weather/
 │   │   ├── air_quality/
-│   │   ├── events/
-│   │   └── geography/
+│   │   │   └── geography/
 │   ├── processed/
 │   └── sample/
 │

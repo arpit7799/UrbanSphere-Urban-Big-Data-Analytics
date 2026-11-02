@@ -1,0 +1,64 @@
+{
+  "model_type": "IsolationForest(contamination=0.05, n_estimators=100)",
+  "total_days_analyzed": 13152,
+  "total_anomalies_flagged": 658,
+  "isolation_forest_count": 658,
+  "zscore_outlier_count": 0,
+  "phenotype_distribution": {
+    "Multi_Pollutant_Acute_Spike": 470,
+    "Post_Monsoon_Biomass_Firework_Smog_Shock": 141,
+    "Severe_Winter_Inversion_Stagnation": 47
+  },
+  "top_anomalous_episodes": [
+    {
+      "date": "2022-10-14",
+      "location_name": "Udyog Vihar",
+      "air_quality_aqi_max": 402,
+      "daily_aqi_category": "Severe",
+      "pm25_mean_ugm3": 237.90875000000003,
+      "pm10_mean_ugm3": 434.77416666666664,
+      "temp_mean_c": 23.000833333333333,
+      "anomaly_phenotype": "Multi_Pollutant_Acute_Spike"
+    },
+    {
+      "date": "2024-10-11",
+      "location_name": "Udyog Vihar",
+      "air_quality_aqi_max": 432,
+      "daily_aqi_category": "Severe",
+      "pm25_mean_ugm3": 237.86833333333334,
+      "pm10_mean_ugm3": 469.8241666666667,
+      "temp_mean_c": 23.50375,
+      "anomaly_phenotype": "Multi_Pollutant_Acute_Spike"
+    },
+    {
+      "date": "2023-10-19",
+      "location_name": "Udyog Vihar",
+      "air_quality_aqi_max": 381,
+      "daily_aqi_category": "Very Poor",
+      "pm25_mean_ugm3": 236.08875,
+      "pm10_mean_ugm3": 447.05625000000003,
+      "temp_mean_c": 22.67125,
+      "anomaly_phenotype": "Post_Monsoon_Biomass_Firework_Smog_Shock"
+    },
+    {
+      "date": "2024-10-01",
+      "location_name": "Manesar",
+      "air_quality_aqi_max": 406,
+      "daily_aqi_category": "Severe",
+      "pm25_mean_ugm3": 236.03958333333333,
+      "pm10_mean_ugm3": 449.64958333333334,
+      "temp_mean_c": 24.80666666666667,
+      "anomaly_phenotype": "Multi_Pollutant_Acute_Spike"
+    },
+    {
+      "date": "2023-10-29",
+      "location_name": "Udyog Vihar",
+      "air_quality_aqi_max": 408,
+      "daily_aqi_category": "Severe",
+      "pm25_mean_ugm3": 235.01625,
+      "pm10_mean_ugm3": 446.44125,
+      "temp_mean_c": 20.642916666666668,
+      "anomaly_phenotype": "Post_Monsoon_Biomass_Firework_Smog_Shock"
+    }
+  ]
+}

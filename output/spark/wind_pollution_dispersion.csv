@@ -1,0 +1,3 @@
+ventilation_category,total_days,avg_wind_speed_kmh,avg_pm25_ug_m3,avg_pm10_ug_m3,avg_no2_ug_m3,avg_max_aqi,severe_aqi_days,severe_aqi_day_pct
+2_Light_Breeze (5-10 km/h),3727,9.5,132.0,256.3,52.1,274.8,30,0.8
+3_Moderate_Breeze (10-15 km/h),9425,11.4,139.6,270.5,55.1,284.5,338,3.6
